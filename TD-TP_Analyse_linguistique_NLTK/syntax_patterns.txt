@@ -1,0 +1,4 @@
+Adjectif-Nom: {<JJ>*<NN>}
+Nom-Nom: {<NN><NN>}
+Adjectif-Nom-Nom: {<JJ>*<NN><NN>}
+Adjectif-Adjectif-Nom: {<JJ>+<NN>}
