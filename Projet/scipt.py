@@ -5,6 +5,7 @@ from nltk import pos_tag
 from nltk.tokenize import word_tokenize
 from nltk.chunk import conlltags2tree
 from nltk.tag import StanfordNERTagger
+from nltk.tag import StanfordPOSTagger
 
 
 
@@ -71,8 +72,8 @@ def nltk_tagger(token_text):
 tagged_words = nltk_tagger(process_text(text))
 
 def stanford_tagger(token_text):
-	st = StanfordNERTagger('./stanford-ner-2020-11-17/classifiers/english.muc.7class.distsim.crf.ser.gz',
-							'./stanford-ner-2020-11-17/stanford-ner.jar',
+	st = StanfordPOSTagger(".\stanford-tagger-4.2.0\stanford-postagger-full-2020-11-17\models\english-bidirectional-distsim.tagger",
+							'.\stanford-tagger-4.2.0\stanford-postagger-full-2020-11-17\stanford-postagger.jar',
 							encoding='utf-8')   
 	ne_tagged = st.tag(token_text)
 	return(ne_tagged)
