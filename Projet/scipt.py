@@ -80,14 +80,16 @@ def stanford_tagger(token_text):
 
 def format(tagged_words):
     new_text = ""
+    listTag=[]
     for tag in tagged_words:
         new_text += tag[0] + "\t" + tag[1] +"\n"
+        listTag.append(tag[1])
         if(tag[0]=="."):
             new_text += "\n"
-    return(new_text)
+    return(new_text,listTag)
 
-nltk_text = format(nltk_tagger(process_text(text)))
-stanford_text = format(stanford_tagger(process_text(text)))
+nltk_text,nltk_tag = format(nltk_tagger(process_text(text)))
+stanford_text,stanford_tag = format(stanford_tagger(process_text(text)))
 
 with open("pos_text.txt.pos.stan","w") as f:
     f.write(stanford_text)
@@ -96,3 +98,34 @@ with open("pos_text.txt.pos.stan","w") as f:
 with open("pos_text.txt.pos.nltk","w") as f:
     f.write(nltk_text)
 
+tagNltkUni = ""
+for tagRef in nltk_tag:
+    for i in range(len(tagRefPtb)):
+        if(tagRefPtb[i][0] == tagRef):
+            tagPTB = tagRefPtb[i][1]
+    
+    for i in range(len(tagPtbUni)):
+        if(tagPtbUni[i][0] == tagPTB):
+            tagUni = tagPtbUni[i][1]
+
+    tagNltkUni = tagNltkUni + tagUni + "\n"
+
+tagStanfordUni = ""
+
+for tagRef in stanford_tag:
+    for i in range(len(tagRefPtb)):
+        if(tagRefPtb[i][0] == tagRef):
+            tagPTB = tagRefPtb[i][1]
+    
+    for i in range(len(tagPtbUni)):
+        if(tagPtbUni[i][0] == tagPTB):
+            tagUni = tagPtbUni[i][1]
+
+    tagStanfordUni = tagStanfordUni + tagUni + "\n"
+
+
+with open("pos_test.txt.pos.stan.univ",'w') as f:
+    f.write(tagStanfordUni)
+
+with open("pos_test.txt.pos.nltk.univ",'w') as f:
+    f.write(tagNltkUni)
