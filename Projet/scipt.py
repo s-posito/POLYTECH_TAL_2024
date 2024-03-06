@@ -1,3 +1,9 @@
+import nltk
+from nltk import pos_tag
+from nltk.tokenize import word_tokenize
+
+
+
 text = open("./pos_reference.txt").read()
 text = text.split("\n")
 newText = []
@@ -48,4 +54,4 @@ for tagRef in tagsRef:
 with open("pos_reference.txt.univ",'w') as f:
     f.write(tagsUni)
 
-
+print(text)
