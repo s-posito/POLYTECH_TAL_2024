@@ -1,6 +1,10 @@
 import nltk
+import os
+os.environ['JAVAHOME'] =  "C:/Program Files/Java/jdk-17/bin/java.exe"
 from nltk import pos_tag
 from nltk.tokenize import word_tokenize
+from nltk.chunk import conlltags2tree
+from nltk.tag import StanfordNERTagger
 
 
 
@@ -54,4 +58,40 @@ for tagRef in tagsRef:
 with open("pos_reference.txt.univ",'w') as f:
     f.write(tagsUni)
 
-print(text)
+
+text = open("./pos_text.txt").read()
+
+def process_text(raw_text):
+	token_text = word_tokenize(raw_text)
+	return token_text
+
+def nltk_tagger(token_text):
+	tagged_words = nltk.pos_tag(token_text)
+	return(tagged_words)
+tagged_words = nltk_tagger(process_text(text))
+
+def stanford_tagger(token_text):
+	st = StanfordNERTagger('./stanford-ner-2020-11-17/classifiers/english.muc.7class.distsim.crf.ser.gz',
+							'./stanford-ner-2020-11-17/stanford-ner.jar',
+							encoding='utf-8')   
+	ne_tagged = st.tag(token_text)
+	return(ne_tagged)
+
+def format(tagged_words):
+    new_text = ""
+    for tag in tagged_words:
+        new_text += tag[0] + "\t" + tag[1] +"\n"
+        if(tag[0]=="."):
+            new_text += "\n"
+    return(new_text)
+
+nltk_text = format(nltk_tagger(process_text(text)))
+stanford_text = format(stanford_tagger(process_text(text)))
+
+with open("pos_text.txt.pos.stan","w") as f:
+    f.write(stanford_text)
+
+
+with open("pos_text.txt.pos.nltk","w") as f:
+    f.write(nltk_text)
+
