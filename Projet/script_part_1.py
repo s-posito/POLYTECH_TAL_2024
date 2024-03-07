@@ -1,6 +1,6 @@
 import nltk
 import os
-os.environ['JAVAHOME'] =  "C:/Program Files/Java/jdk-17/bin/java.exe"
+os.environ['JAVAHOME'] =  "C:/Program Files/Java/jdk-17.0.4.1/bin/java.exe"
 from nltk import pos_tag
 from nltk.tokenize import word_tokenize
 from nltk.chunk import conlltags2tree
@@ -72,8 +72,8 @@ def nltk_tagger(token_text):
 tagged_words = nltk_tagger(process_text(text))
 
 def stanford_tagger(token_text):
-	st = StanfordPOSTagger(".\stanford-tagger-4.2.0\stanford-postagger-full-2020-11-17\models\english-bidirectional-distsim.tagger",
-							'.\stanford-tagger-4.2.0\stanford-postagger-full-2020-11-17\stanford-postagger.jar',
+	st = StanfordPOSTagger("./stanford-tagger-4.2.0/stanford-postagger-full-2020-11-17/models/english-bidirectional-distsim.tagger",
+							'./stanford-tagger-4.2.0/stanford-postagger-full-2020-11-17/stanford-postagger.jar',
 							encoding='utf-8')   
 	ne_tagged = st.tag(token_text)
 	return(ne_tagged)
