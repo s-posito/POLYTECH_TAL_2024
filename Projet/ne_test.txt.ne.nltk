@@ -1283,6 +1283,7 @@ hour	O
 ``	O
 ;	O
 ''	O
+
 their	O
 replacements	O
 will	O
@@ -2193,6 +2194,7 @@ spirit	O
 ``	O
 ;	O
 ''	O
+
 a	O
 once	O
 and	O
@@ -5839,6 +5841,7 @@ vehicles	O
 ``	O
 ;	O
 ''	O
+
 he	O
 first	O
 observed	O

@@ -5,18 +5,20 @@ as	O
 General	B-ORG
 Motors	I-ORG
 chief	O
+
 December	O
 10	O
 ,	O
 2013	O
-The	O
-United	B-LOC
-States	I-LOC
-'s	O
-largest	O
-car	O
-manufacturer	O
-General	B-ORG
+
+The	B-ORG
+United	I-ORG
+States	I-ORG
+'s	I-ORG
+largest	I-ORG
+car	I-ORG
+manufacturer	I-ORG
+General	I-ORG
 Motors	I-ORG
 today	O
 named	O
@@ -44,7 +46,7 @@ a	O
 firm	O
 in	O
 the	O
-American	O
+American	B-LOC
 auto	O
 industry	O
 .	O
@@ -101,13 +103,12 @@ an	O
 exciting	O
 time	O
 at	O
-today	O
-'s	O
-GM	O
+today	B-ORG
+'s	I-ORG
+GM	I-ORG
 .	O
 
-I	O
-'	O
+I'	O
 m	O
 honored	O
 to	O
@@ -127,12 +128,12 @@ at	O
 full	O
 speed	O
 .	O
+''	O
 
-``	O
 She	O
 replaces	O
-Daniel	B-PER
-Akerson	I-PER
+Daniel	O
+Akerson	O
 ,	O
 who	O
 was	O
@@ -155,7 +156,7 @@ company	O
 bankruptcy	O
 .	O
 
-Akerson	B-PER
+Akerson	O
 plans	O
 to	O
 stand	O
@@ -207,10 +208,10 @@ that	O
 we	O
 are	O
 restoring	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 as	O
-America	B-LOC
+America	O
 's	O
 standard	O
 bearer	O
@@ -220,9 +221,9 @@ global	O
 auto	O
 industry	O
 .	O
+''	O
 
-``	O
-Akerson	B-PER
+Akerson	O
 will	O
 also	O
 relinquish	O
@@ -236,8 +237,8 @@ replaced	O
 by	O
 current	O
 director	O
-Theodore	B-PER
-Solso	I-PER
+Theodore	O
+Solso	O
 .	O
 
 The	O
@@ -247,8 +248,8 @@ announced	O
 head	O
 of	O
 finance	O
-Daniel	B-PER
-Ammann	I-PER
+Daniel	O
+Ammann	O
 as	O
 its	O
 new	O
@@ -262,7 +263,7 @@ just	O
 days	O
 after	O
 the	O
-US	B-LOC
+US	O
 government	O
 sold	O
 the	O
@@ -298,8 +299,8 @@ public	O
 ownership	O
 .	O
 
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 recovered	O
 from	O
 their	O
@@ -310,7 +311,7 @@ after	O
 the	O
 appointment	O
 of	O
-Akerson	B-PER
+Akerson	O
 ,	O
 and	O
 re-entered	O
@@ -330,8 +331,8 @@ car	O
 manufacturer	O
 in	O
 the	O
-United	B-LOC
-States	I-LOC
+United	O
+States	O
 ,	O
 posting	O
 sales	O
@@ -356,7 +357,7 @@ in	O
 countries	O
 .	O
 
-Barra	B-PER
+Barra	O
 holds	O
 a	O
 bachelor	O
@@ -366,19 +367,19 @@ in	O
 electrical	O
 engineering	O
 from	O
-Kettering	B-ORG
-University	I-ORG
+Kettering	O
+University	O
 in	O
-Flint	B-LOC
+Flint	O
 ,	O
-Michigan	B-LOC
+Michigan	O
 ,	O
 and	O
 was	O
 recently	O
 listed	O
 by	O
-Forbes	B-PER
+Forbes	O
 as	O
 the	O
 35th	O
@@ -397,28 +398,29 @@ deal	O
 fails	O
 to	O
 pass	O
-Senate	B-ORG
+Senate	O
+
 December	O
 12	O
 ,	O
 2008	O
+
 A	O
-US	B-LOC
-$	O
+US$	O
 14	O
 billion	O
 bailout	O
 package	O
 deal	O
 for	O
-the	O
-``	O
-Big	O
-Three	O
-``	O
-United	B-LOC
-States	I-LOC
-automakers	O
+the	B-ORG
+``	I-ORG
+Big	I-ORG
+Three	I-ORG
+''	I-ORG
+United	I-ORG
+States	I-ORG
+automakers	I-ORG
 --	O
 Chrysler	B-ORG
 ,	O
@@ -432,10 +434,10 @@ has	O
 been	O
 rejected	O
 in	O
-the	O
-United	B-LOC
-States	I-LOC
-Senate	B-ORG
+the	B-ORG
+United	I-ORG
+States	I-ORG
+Senate	I-ORG
 after	O
 failing	O
 a	O
@@ -461,14 +463,14 @@ Party	I-ORG
 leaders	O
 insisted	O
 that	O
-the	O
-United	B-ORG
+the	B-ORG
+United	I-ORG
 Auto	I-ORG
 Workers	I-ORG
-(	O
-UAW	B-ORG
-)	O
-union	O
+(	I-ORG
+UAW	I-ORG
+)	I-ORG
+union	I-ORG
 agree	O
 to	O
 increase	O
@@ -492,13 +494,13 @@ Japanese	O
 automobile	O
 companies	O
 in	O
-the	O
-United	B-LOC
+the	B-LOC
+United	I-LOC
 States	I-LOC
 .	O
 
-The	O
-UAW	B-ORG
+The	B-ORG
+UAW	I-ORG
 refused	O
 to	O
 meet	O
@@ -511,8 +513,8 @@ final	O
 vote	O
 count	O
 in	O
-the	O
-Senate	B-ORG
+the	B-ORG
+Senate	I-ORG
 was	O
 52-35	O
 ,	O
@@ -552,11 +554,11 @@ against	O
 it	O
 .	O
 
-Senate	B-ORG
+Senate	O
 Majority	O
 leader	O
-Harry	B-PER
-Reid	I-PER
+Harry	O
+Reid	O
 said	O
 that	O
 he	O
@@ -564,7 +566,7 @@ was	O
 ``	O
 terribly	O
 disappointed	O
-``	O
+''	O
 by	O
 the	O
 failure	O
@@ -595,8 +597,8 @@ a	O
 pleasant	O
 sight	O
 ,	O
-``	O
-Reid	B-PER
+''	O
+Reid	O
 said	O
 .	O
 
@@ -633,12 +635,12 @@ impacted	O
 and	O
 affected	O
 .	O
+''	O
 
-``	O
 Republican	O
 Senator	O
-Bob	B-PER
-Corker	I-PER
+Bob	O
+Corker	O
 was	O
 also	O
 unhappy	O
@@ -674,7 +676,7 @@ reaching	O
 a	O
 conclusion	O
 ,	O
-``	O
+''	O
 he	O
 said	O
 .	O
@@ -683,9 +685,9 @@ Some	O
 Democrats	O
 now	O
 want	O
-U.S.	B-LOC
+U.S.	O
 President	O
-Bush	B-PER
+Bush	O
 to	O
 reserve	O
 a	O
@@ -719,7 +721,7 @@ the	O
 news	O
 ,	O
 with	O
-Japan	B-LOC
+Japan	O
 's	O
 Nikkei	O
 average	O
@@ -744,11 +746,11 @@ in	O
 the	O
 auto	O
 companies	O
-Toyota	B-ORG
+Toyota	O
 ,	O
-Nissan	B-ORG
+Nissan	O
 and	O
-Honda	B-ORG
+Honda	O
 all	O
 dropped	O
 by	O
@@ -768,10 +770,10 @@ as	O
 those	O
 in	O
 the	O
-United	B-LOC
-Kingdom	I-LOC
+United	O
+Kingdom	O
 and	O
-Germany	B-LOC
+Germany	O
 ,	O
 also	O
 lost	O
@@ -796,16 +798,18 @@ at	O
 midday	O
 .	O
 
-White	B-ORG
-House	I-ORG
+White	O
+House	O
 considering	O
 auto	O
 rescue	O
 plan	O
+
 December	O
 13	O
 ,	O
 2008	O
+
 After	O
 a	O
 plan	O
@@ -814,19 +818,19 @@ bail	O
 out	O
 three	O
 large	O
-American	O
+American	B-LOC
 auto	O
 companies	O
 failed	O
 to	O
 pass	O
-the	O
-Senate	B-ORG
+the	B-ORG
+Senate	I-ORG
 this	O
 week	O
 ,	O
-the	O
-White	B-ORG
+the	B-ORG
+White	I-ORG
 House	I-ORG
 has	O
 said	O
@@ -838,8 +842,7 @@ using	O
 some	O
 of	O
 the	O
-US	B-LOC
-$	O
+US$	O
 700	O
 billion	O
 earmarked	O
@@ -855,8 +858,8 @@ the	O
 automakers	O
 .	O
 
-The	O
-White	B-ORG
+The	B-ORG
+White	I-ORG
 House	I-ORG
 says	O
 that	O
@@ -905,7 +908,7 @@ weakened	O
 state	O
 of	O
 the	O
-US	B-LOC
+US	O
 economy	O
 ,	O
 we	O
@@ -936,16 +939,16 @@ of	O
 troubled	O
 automakers	O
 ,	O
-``	O
+''	O
 said	O
 Dana	B-PER
 Perino	I-PER
 ,	O
-the	O
-White	B-LOC
-House	I-LOC
-Press	O
-Secretary	O
+the	B-PER
+White	I-PER
+House	I-PER
+Press	I-PER
+Secretary	I-PER
 .	O
 
 ``	O
@@ -980,8 +983,8 @@ at	O
 this	O
 time	O
 .	O
+''	O
 
-``	O
 Earlier	O
 this	O
 week	O
@@ -990,21 +993,21 @@ the	O
 ``	O
 Big	O
 Three	O
-``	O
+''	O
 automakers	O
 -	O
-Ford	B-ORG
+Ford	O
 ,	O
-Chrysler	B-ORG
+Chrysler	O
 ,	O
 and	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 -	O
 had	O
 pleaded	O
 before	O
-Congress	B-ORG
+Congress	O
 to	O
 be	O
 given	O
@@ -1022,13 +1025,13 @@ collapse	O
 
 Although	O
 the	O
-House	B-ORG
+House	O
 approved	O
 the	O
 measures	O
 ,	O
 the	O
-Senate	B-ORG
+Senate	O
 voted	O
 the	O
 proposition	O
@@ -1073,8 +1076,8 @@ Japanese	O
 carmakers	O
 .	O
 
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 stated	O
 that	O
 the	O
@@ -1096,7 +1099,7 @@ rapidly	O
 deteriorating	O
 market	O
 conditions	O
-``	O
+''	O
 .	O
 
 GM	B-ORG
@@ -1109,14 +1112,16 @@ early	O
 retirement	O
 to	O
 workers	O
+
 February	O
 3	O
 ,	O
 2009	O
-General	O
-Motors	O
-(	O
-GM	O
+
+General	B-ORG
+Motors	I-ORG
+(	I-ORG
+GM	I-ORG
 )	O
 and	O
 Chrysler	B-ORG
@@ -1150,7 +1155,7 @@ been	O
 forced	O
 to	O
 seek	O
-federal	O
+federal	B-LOC
 aid	O
 from	O
 the	O
@@ -1161,7 +1166,7 @@ government	O
 Reports	O
 say	O
 that	O
-GM	B-ORG
+GM	O
 's	O
 package	O
 includes	O
@@ -1205,18 +1210,18 @@ the	O
 deal	O
 to	O
 most	O
-United	B-ORG
-Auto	I-ORG
-Workers	I-ORG
+United	O
+Auto	O
+Workers	O
 (	O
-UAW	B-ORG
+UAW	O
 )	O
 union	O
 members	O
 -	O
 62	O
 at	O
-GM	B-ORG
+GM	O
 ,	O
 which	O
 is	O
@@ -1246,7 +1251,7 @@ them	O
 operating	O
 ,	O
 but	O
-Congress	B-ORG
+Congress	O
 required	O
 them	O
 to	O
@@ -1271,19 +1276,16 @@ the	O
 money	O
 .	O
 
-UAW	B-ORG
+UAW	O
 workers	O
 in	O
-Detroit	B-LOC
+Detroit	O
 earn	O
 $	O
 28	O
 an	O
 hour	O
-``	O
-;	O
-''	O
-
+";"	O
 their	O
 replacements	O
 will	O
@@ -1294,12 +1296,12 @@ that	O
 .	O
 
 The	O
-UAW	B-ORG
+UAW	O
 's	O
 ``	O
 jobs	O
 bank	O
-``	O
+''	O
 ,	O
 a	O
 system	O
@@ -1318,7 +1320,7 @@ both	O
 companies	O
 .	O
 
-GM	B-ORG
+GM	O
 is	O
 also	O
 attempting	O
@@ -1355,16 +1357,16 @@ truck	O
 manufacturer	O
 ,	O
 the	O
-Delco	B-ORG
-Electronics	I-ORG
+Delco	O
+Electronics	O
 parts	O
 group	O
 and	O
 the	O
-Hummer	B-PER
+Hummer	O
 and	O
-Saab	B-ORG
-Automobile	I-ORG
+Saab	O
+Automobile	O
 vehicle	O
 brands	O
 .	O
@@ -1383,9 +1385,9 @@ downturn	O
 ,	O
 with	O
 the	O
-Ford	B-ORG
-Motor	I-ORG
-Company	I-ORG
+Ford	O
+Motor	O
+Company	O
 announcing	O
 a	O
 $	O
@@ -1403,9 +1405,9 @@ federal	O
 aid	O
 .	O
 
-GM	B-ORG
+GM	O
 and	O
-Chrysler	B-ORG
+Chrysler	O
 both	O
 ran	O
 out	O
@@ -1425,21 +1427,23 @@ bailout	O
 Automobile	O
 sales	O
 in	O
-the	O
-United	B-LOC
+the	B-LOC
+United	I-LOC
 States	I-LOC
 down	O
 sharply	O
+
 February	O
 3	O
 ,	O
 2009	O
+
 Sales	O
 of	O
 automobiles	O
 in	O
-the	O
-United	B-LOC
+the	B-LOC
+United	I-LOC
 States	I-LOC
 fell	O
 as	O
@@ -1497,7 +1501,7 @@ hardest	O
 hit	O
 among	O
 the	O
-domestically	O
+domestically	B-LOC
 owned	O
 manufacturers	O
 with	O
@@ -1518,47 +1522,47 @@ been	O
 limited	O
 to	O
 just	O
-US	B-LOC
+US	O
 manufacturers	O
 .	O
 
 Japanese	O
 automaker	O
-Toyota	B-ORG
+Toyota	O
 reported	O
 a	O
 32	O
 %	O
 drop	O
 in	O
-US	B-LOC
+US	O
 sales	O
 from	O
 a	O
 year	O
 earlier	O
 ,	O
-Nissan	B-ORG
-Motors	I-ORG
+Nissan	O
+Motors	O
 dropped	O
 30	O
 %	O
 ,	O
 and	O
-Honda	B-ORG
+Honda	O
 sales	O
 dropped	O
 28	O
 %	O
 .	O
 
-Subaru	B-PER
+Subaru	O
 and	O
 South	O
 Korean	O
-Hyundai	B-ORG
-Motor	I-ORG
-Company	I-ORG
+Hyundai	O
+Motor	O
+Company	O
 were	O
 two	O
 of	O
@@ -1600,7 +1604,7 @@ plummeting	O
 .	O
 
 Industry-wide	O
-US	B-LOC
+US	O
 car	O
 sales	O
 dropped	O
@@ -1614,7 +1618,7 @@ million	O
 automobiles	O
 .	O
 
-GM	B-ORG
+GM	O
 announced	O
 today	O
 that	O
@@ -1628,7 +1632,7 @@ to	O
 employees	O
 in	O
 the	O
-US	B-LOC
+US	O
 ,	O
 in	O
 an	O
@@ -1642,15 +1646,14 @@ expenditures	O
 Last	O
 month	O
 ,	O
-GM	B-ORG
+GM	O
 and	O
-Chrysler	B-ORG
+Chrysler	O
 were	O
 given	O
 loans	O
 worth	O
-US	B-LOC
-$	O
+US$	O
 17.4	O
 billion	O
 from	O
@@ -1666,23 +1669,25 @@ bankruptcy	O
 
 US	B-LOC
 automakers	O
-GM	B-ORG
+GM	O
 and	O
-Chrysler	B-ORG
+Chrysler	O
 seek	O
 more	O
-government	O
+government	B-LOC
 aid	O
+
 February	O
 18	O
 ,	O
 2009	O
-The	O
-United	B-LOC
-States	I-LOC
-auto	O
-manufacturer	O
-Chrysler	B-ORG
+
+The	B-ORG
+United	I-ORG
+States	I-ORG
+auto	I-ORG
+manufacturer	I-ORG
+Chrysler	I-ORG
 ,	O
 which	O
 has	O
@@ -1702,8 +1707,7 @@ government	O
 for	O
 an	O
 additional	O
-US	B-LOC
-$	O
+US$	O
 5	O
 billion	O
 in	O
@@ -1768,14 +1772,14 @@ Chrysler	B-ORG
 will	O
 cut	O
 the	O
-Chrysler	B-ORG
-Aspen	I-ORG
+Chrysler	O
+Aspen	O
 ,	O
 PT	O
 Cruiser	O
 ,	O
 and	O
-Durango	B-LOC
+Durango	O
 from	O
 production	O
 .	O
@@ -1786,7 +1790,7 @@ automaker	O
 General	B-ORG
 Motors	I-ORG
 (	O
-GM	O
+GM	B-ORG
 )	O
 ,	O
 announced	O
@@ -1816,7 +1820,7 @@ already	O
 received	O
 .	O
 
-GM	B-ORG
+GM	O
 plans	O
 to	O
 lay	O
@@ -1829,7 +1833,7 @@ five	O
 factories	O
 .	O
 
-GM	B-ORG
+GM	O
 says	O
 that	O
 it	O
@@ -1843,9 +1847,9 @@ $	O
 billion	O
 from	O
 the	O
-US	B-ORG
-Treasury	I-ORG
-Department	I-ORG
+US	O
+Treasury	O
+Department	O
 ,	O
 an	O
 increase	O
@@ -1880,10 +1884,10 @@ not	O
 given	O
 .	O
 
-Rick	B-PER
-Wagoner	I-PER
+Rick	O
+Wagoner	O
 ,	O
-GM	B-ORG
+GM	O
 's	O
 chief	O
 executive	O
@@ -1903,7 +1907,7 @@ achievable	O
 ,	O
 and	O
 flexible	O
-``	O
+''	O
 .	O
 
 ``	O
@@ -1928,10 +1932,10 @@ result	O
 in	O
 a	O
 profitable	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 ,	O
-``	O
+''	O
 he	O
 said	O
 ,	O
@@ -1951,9 +1955,9 @@ has	O
 to	O
 be	O
 .	O
+''	O
 
-``	O
-GM	B-ORG
+GM	O
 says	O
 that	O
 it	O
@@ -1981,13 +1985,13 @@ by	O
 
 A	O
 third	O
-US	B-LOC
+US	O
 car	O
 manufacturer	O
 ,	O
-Ford	B-ORG
-Motor	I-ORG
-Company	I-ORG
+Ford	O
+Motor	O
+Company	O
 ,	O
 has	O
 said	O
@@ -2006,9 +2010,9 @@ aid	O
 .	O
 
 The	O
-US	B-ORG
-Treasury	I-ORG
-Department	I-ORG
+US	O
+Treasury	O
+Department	O
 will	O
 review	O
 the	O
@@ -2051,20 +2055,22 @@ GM	B-ORG
 and	O
 Chrysler	B-ORG
 receive	O
-Canadian	O
+Canadian	B-LOC
 loans	O
 amid	O
-US	B-LOC
+US	O
 restructuring	O
 ultimata	O
+
 April	O
 3	O
 ,	O
 2009	O
-General	O
-Motors	O
+
+General	B-ORG
+Motors	I-ORG
 (	O
-GM	O
+GM	B-ORG
 )	O
 and	O
 Chrysler	B-ORG
@@ -2073,16 +2079,16 @@ receive	O
 bridge	O
 loans	O
 from	O
-the	O
-government	O
-of	O
-Canada	B-LOC
+the	B-LOC
+government	I-LOC
+of	I-LOC
+Canada	I-LOC
 and	O
-the	O
-provincial	O
-government	O
-of	O
-Ontario	B-LOC
+the	B-LOC
+provincial	I-LOC
+government	I-LOC
+of	I-LOC
+Ontario	I-LOC
 ,	O
 however	O
 no	O
@@ -2092,7 +2098,7 @@ be	O
 forthcoming	O
 from	O
 either	O
-Canadian	O
+Canadian	B-LOC
 or	O
 US	B-LOC
 governments	O
@@ -2115,7 +2121,7 @@ step	O
 to	O
 protect	O
 the	O
-Canadian	O
+Canadian	B-LOC
 economy	O
 .	O
 
@@ -2134,8 +2140,8 @@ not	O
 afford	O
 either	O
 in	O
-the	O
-United	B-LOC
+the	B-LOC
+United	I-LOC
 States	I-LOC
 or	O
 Canada	B-LOC
@@ -2144,16 +2150,16 @@ catastrophic	O
 short-term	O
 collapse	O
 .	O
+''	O
 
-``	O
 said	O
 Stephen	B-PER
 Harper	I-PER
 ,	O
-Prime	O
-Minister	O
-of	O
-Canada	B-LOC
+Prime	B-PER
+Minister	I-PER
+of	I-PER
+Canada	I-PER
 .	O
 
 ``	O
@@ -2191,30 +2197,27 @@ of	O
 the	O
 American	O
 spirit	O
-``	O
-;	O
-''	O
-
+";"	O
 a	O
 once	O
 and	O
 future	O
 symbol	O
 of	O
-America	B-LOC
+America	O
 's	O
 success	O
 ,	O
-``	O
+''	O
 said	O
-Barack	B-PER
-Obama	I-PER
+Barack	O
+Obama	O
 ,	O
 President	O
 of	O
 the	O
-United	B-LOC
-States	I-LOC
+United	O
+States	O
 .	O
 
 ``	O
@@ -2239,13 +2242,12 @@ of	O
 the	O
 state	O
 .	O
+''	O
 
-``	O
-Chrysler	B-ORG
+Chrysler	O
 will	O
 receive	O
-CA	O
-$	O
+CA$	O
 1	O
 billion	O
 and	O
@@ -2258,14 +2260,13 @@ for	O
 as	O
 much	O
 as	O
-CA	O
-$	O
+CA$	O
 4	O
 billion	O
 .	O
 
 If	O
-Chrysler	B-ORG
+Chrysler	O
 succeeds	O
 in	O
 the	O
@@ -2282,8 +2283,7 @@ be	O
 eligible	O
 for	O
 a	O
-US	B-LOC
-$	O
+US$	O
 6	O
 billion	O
 loan	O
@@ -2292,7 +2292,7 @@ loan	O
 A	O
 part	O
 of	O
-Chrysler	B-ORG
+Chrysler	O
 's	O
 restructuring	O
 plan	O
@@ -2301,18 +2301,18 @@ include	O
 a	O
 partnership	O
 with	O
-Fiat	B-ORG
+Fiat	O
 within	O
 30	O
 days	O
 to	O
 appease	O
 the	O
-US	B-LOC
+US	O
 administration	O
 .	O
 
-Fiat	B-ORG
+Fiat	O
 is	O
 a	O
 supplier	O
@@ -2326,7 +2326,7 @@ the	O
 merger	O
 will	O
 help	O
-Chrysler	B-ORG
+Chrysler	O
 to	O
 be	O
 viable	O
@@ -2338,7 +2338,7 @@ market	O
 .	O
 
 A	O
-Chrysler	B-ORG
+Chrysler	O
 court	O
 bankruptcy	O
 would	O
@@ -2355,18 +2355,18 @@ As	O
 a	O
 part	O
 of	O
-Chrysler	B-ORG
+Chrysler	O
 's	O
 restructuring	O
 plans	O
 ,	O
-Tom	B-PER
-LaSorda	I-PER
+Tom	O
+LaSorda	O
 ,	O
 the	O
 president	O
 of	O
-Chrysler	B-ORG
+Chrysler	O
 announced	O
 that	O
 Canadian	O
@@ -2380,7 +2380,7 @@ not	O
 receive	O
 both	O
 the	O
-US	B-LOC
+US	O
 commitment	O
 of	O
 $	O
@@ -2391,18 +2391,17 @@ aid	O
 and	O
 a	O
 new	O
-Canadian	B-ORG
-Auto	I-ORG
-Workers	I-ORG
-CAW	I-ORG
+Canadian	O
+Auto	O
+Workers	O
+CAW	O
 contract	O
 to	O
 reduce	O
 all-in	O
 costs	O
 by	O
-CA	O
-$	O
+CA$	O
 19	O
 per	O
 hour	O
@@ -2414,13 +2413,13 @@ result	O
 of	O
 this	O
 announcement	O
-Chrysler	B-ORG
+Chrysler	O
 's	O
 auto	O
 sales	O
 volume	O
 in	O
-Canada	B-LOC
+Canada	O
 dropped	O
 23	O
 %	O
@@ -2431,7 +2430,7 @@ of	O
 2008	O
 .	O
 
-GM	B-ORG
+GM	O
 has	O
 until	O
 the	O
@@ -2446,8 +2445,7 @@ to	O
 receive	O
 up	O
 to	O
-CA	O
-$	O
+CA$	O
 7.5	O
 billion	O
 .	O
@@ -2459,19 +2457,19 @@ the	O
 companies	O
 restructuring	O
 ,	O
-General	B-ORG
-Motor	I-ORG
+General	O
+Motor	O
 's	O
 chief	O
 executive	O
-Rick	B-PER
-Wagoner	I-PER
+Rick	O
+Wagoner	O
 was	O
 replaced	O
 Sunday	O
 with	O
-Fritz	B-PER
-Henderson	I-PER
+Fritz	O
+Henderson	O
 ,	O
 the	O
 current	O
@@ -2480,13 +2478,13 @@ operating	O
 officer	O
 .	O
 
-Henderson	B-PER
+Henderson	O
 spoke	O
 out	O
 on	O
 Tuesday	O
 that	O
-GM	B-ORG
+GM	O
 has	O
 submitted	O
 a	O
@@ -2518,7 +2516,7 @@ in	O
 full	O
 compliance	O
 with	O
-Obama	B-PER
+Obama	O
 's	O
 auto	O
 task	O
@@ -2527,7 +2525,7 @@ to	O
 seek	O
 bankruptcy	O
 if	O
-GM	B-ORG
+GM	O
 can	O
 not	O
 negotiate	O
@@ -2540,16 +2538,16 @@ and	O
 others	O
 .	O
 
-GM	B-ORG
+GM	O
 recently	O
 brought	O
 forward	O
 the	O
 ``	O
-GM	B-ORG
+GM	O
 Total	O
 Confidence	O
-``	O
+''	O
 program	O
 providing	O
 consumer	O
@@ -2577,14 +2575,14 @@ As	O
 a	O
 result	O
 of	O
-Chrysler	B-ORG
+Chrysler	O
 's	O
 restructuring	O
 announcement	O
 in	O
-Canada	B-LOC
+Canada	O
 ,	O
-GM	B-ORG
+GM	O
 's	O
 Canadian	O
 vehicle	O
@@ -2606,7 +2604,7 @@ previous	O
 month	O
 .	O
 
-GM	B-ORG
+GM	O
 must	O
 reduce	O
 some	O
@@ -2628,7 +2626,7 @@ costs	O
 A	O
 part	O
 of	O
-GM	B-ORG
+GM	O
 's	O
 ailments	O
 arose	O
@@ -2655,10 +2653,10 @@ efficient	O
 vehicles	O
 .	O
 
-Tony	B-PER
-Clement	I-PER
+Tony	O
+Clement	O
 ,	O
-Canada	B-LOC
+Canada	O
 's	O
 Minister	O
 of	O
@@ -2668,7 +2666,7 @@ is	O
 hoping	O
 that	O
 the	O
-CAW	B-ORG
+CAW	O
 will	O
 support	O
 the	O
@@ -2682,9 +2680,9 @@ agreement	O
 
 Whereas	O
 a	O
-United	B-ORG
-Auto	I-ORG
-Workers	I-ORG
+United	O
+Auto	O
+Workers	O
 negotiator	O
 has	O
 said	O
@@ -2696,7 +2694,7 @@ n't	O
 see	O
 how	O
 the	O
-UAW	B-ORG
+UAW	O
 will	O
 do	O
 anything	O
@@ -2710,10 +2708,10 @@ will	O
 give	O
 up	O
 .	O
+''	O
 
-``	O
 The	O
-Obama	B-PER
+Obama	O
 administration	O
 is	O
 looking	O
@@ -2808,10 +2806,10 @@ endless	O
 government	O
 bailouts	O
 .	O
+''	O
 
-``	O
 said	O
-Obama	B-PER
+Obama	O
 .	O
 
 The	O
@@ -2823,7 +2821,7 @@ IT	O
 software	O
 exporters	O
 in	O
-India	B-LOC
+India	O
 have	O
 already	O
 been	O
@@ -2835,14 +2833,13 @@ auto	O
 sales	O
 .	O
 
-GM	B-ORG
+GM	O
 and	O
-Chrysler	B-ORG
+Chrysler	O
 software	O
 contracts	O
 provide	O
-US	B-LOC
-$	O
+US$	O
 300	O
 to	O
 350	O
@@ -2852,7 +2849,7 @@ year	O
 to	O
 vendors	O
 in	O
-India	B-LOC
+India	O
 .	O
 
 As	O
@@ -2863,8 +2860,7 @@ major	O
 automakers	O
 usually	O
 award	O
-US	B-LOC
-$	O
+US$	O
 1	O
 billion	O
 contracts	O
@@ -2885,7 +2881,7 @@ the	O
 developments	O
 in	O
 the	O
-US	B-LOC
+US	O
 to	O
 gauge	O
 the	O
@@ -2899,7 +2895,7 @@ auto	O
 sales	O
 in	O
 the	O
-US	B-LOC
+US	O
 has	O
 already	O
 hit	O
@@ -2910,10 +2906,10 @@ of	O
 Indian	O
 suppliers	O
 ,	O
-``	O
+''	O
 said	O
 a	O
-Delhi	B-LOC
+Delhi	O
 auto	O
 parts	O
 supplier	O
@@ -2949,15 +2945,15 @@ jobs	O
 for	O
 Canadians	O
 ,	O
-``	O
+''	O
 said	O
-Clements	B-PER
+Clements	O
 .	O
 
-Betty	B-PER
-Sutton	I-PER
+Betty	O
+Sutton	O
 ,	O
-Ohio	B-LOC
+Ohio	O
 's	O
 Congresswoman	O
 put	O
@@ -2968,8 +2964,7 @@ act	O
 which	O
 provides	O
 a	O
-US	B-LOC
-$	O
+US$	O
 3	O
 to	O
 5	O
@@ -3034,25 +3029,25 @@ in	O
 two	O
 respects	O
 .	O
+''	O
 
-``	O
 said	O
-William	B-PER
-Clay	I-PER
-Ford	I-PER
-Jr.	I-PER
+William	O
+Clay	O
+Ford	O
+Jr.	O
 ,	O
 executive	O
 chairman	O
 of	O
-Ford	B-ORG
-Motor	I-ORG
-Co.	I-ORG
+Ford	O
+Motor	O
+Co.	O
 .	O
 
-Ford	B-ORG
-Motor	I-ORG
-Company	I-ORG
+Ford	O
+Motor	O
+Company	O
 has	O
 not	O
 come	O
@@ -3065,13 +3060,12 @@ assistance	O
 
 Since	O
 December	O
-GM	B-ORG
+GM	O
 and	O
-Chrysler	B-ORG
+Chrysler	O
 have	O
 received	O
-US	B-LOC
-$	O
+US$	O
 17.4	O
 billion	O
 government	O
@@ -3086,15 +3080,17 @@ plunge	O
 by	O
 45	O
 %	O
+
 April	O
 1	O
 ,	O
 2009	O
+
 General	B-ORG
 Motors	I-ORG
 Corporation	I-ORG
-(	O
-GM	O
+(	I-ORG
+GM	I-ORG
 )	O
 announced	O
 on	O
@@ -3107,8 +3103,8 @@ a	O
 %	O
 drop	O
 in	O
-United	B-LOC
-States	I-LOC
+United	O
+States	O
 vehicle	O
 sales	O
 for	O
@@ -3170,18 +3166,18 @@ nourished	O
 like	O
 seedlings	O
 ,	O
-``	O
+''	O
 said	O
-the	O
-vice	O
-president	O
-and	O
-chairman	O
-of	O
-Chrysler	B-ORG
-LLC	I-ORG
-Jim	I-ORG
-Press	I-ORG
+the	B-PER
+vice	I-PER
+president	I-PER
+and	I-PER
+chairman	I-PER
+of	I-PER
+Chrysler	I-PER	B-ORG
+LLC	I-PER	I-ORG
+Jim	I-PER
+Press	I-PER
 .	O
 
 ``	O
@@ -3201,8 +3197,8 @@ signs	O
 of	O
 hope	O
 .	O
+''	O
 
-``	O
 Other	O
 automobile	O
 manufacturers	O
@@ -3213,11 +3209,11 @@ car	O
 sales	O
 slip	O
 :	O
-Chrysler	B-ORG
+Chrysler	O
 and	O
 the	O
 Japanese	O
-Toyota	B-ORG
+Toyota	O
 both	O
 reported	O
 a	O
@@ -3226,9 +3222,9 @@ a	O
 loss	O
 ,	O
 whilst	O
-Ford	B-ORG
-Motor	I-ORG
-Company	I-ORG
+Ford	O
+Motor	O
+Company	O
 sales	O
 fell	O
 41	O
@@ -3245,7 +3241,7 @@ car	O
 industry	O
 in	O
 the	O
-US	B-LOC
+US	O
 are	O
 predicted	O
 to	O
@@ -3294,9 +3290,9 @@ the	O
 new	O
 programs	O
 from	O
-Ford	B-ORG
+Ford	O
 and	O
-GM	B-ORG
+GM	O
 .	O
 
 The	O
@@ -3312,17 +3308,17 @@ today	O
 's	O
 economy	O
 ,	O
-``	O
-Jesse	B-PER
-Toprak	I-PER
+''	O
+Jesse	O
+Toprak	O
 ,	O
 an	O
 analyst	O
 for	O
-Edmunds	B-PER
+Edmunds	O
 .	O
 
-Ford	B-ORG
+Ford	O
 shares	O
 gained	O
 2.3	O
@@ -3331,14 +3327,13 @@ to	O
 a	O
 level	O
 of	O
-US	B-LOC
-$	O
+US$	O
 2.69	O
 in	O
 early	O
 trading	O
 at	O
-US	B-LOC
+US	O
 stock	O
 markets	O
 on	O
@@ -3347,9 +3342,9 @@ Wednesday	O
 while	O
 stocks	O
 for	O
-Toyota	B-ORG
+Toyota	O
 's	O
-US	B-LOC
+US	O
 depository	O
 increased	O
 5.9	O
@@ -3359,7 +3354,7 @@ $	O
 67	O
 .	O
 
-GM	B-ORG
+GM	O
 shares	O
 slipped	O
 1.6	O
@@ -3381,15 +3376,17 @@ SpA	I-ORG
 to	O
 run	O
 company	O
+
 May	O
 1	O
 ,	O
 2009	O
-The	O
-American	O
-auto	O
-company	O
-Chrysler	B-ORG
+
+The	B-ORG
+American	I-ORG
+auto	I-ORG
+company	I-ORG
+Chrysler	I-ORG
 filed	O
 for	O
 bankruptcy	O
@@ -3399,42 +3396,42 @@ however	O
 a	O
 deal	O
 with	O
-European	O
-auto	O
-maker	O
-Fiat	B-ORG
+European	B-ORG
+auto	I-ORG
+maker	I-ORG
+Fiat	I-ORG
 went	O
 through	O
 .	O
 
-The	O
-emerging	O
-Chrysler	B-ORG
+The	B-ORG
+emerging	I-ORG
+Chrysler	I-ORG
 will	O
 be	O
 owned	O
 55	O
 percent	O
 by	O
-the	O
-United	B-ORG
+the	B-ORG
+United	I-ORG
 Auto	I-ORG
 Workers	I-ORG
 ,	O
 eight	O
 percent	O
 by	O
-the	O
-United	B-LOC
+the	B-LOC
+United	I-LOC
 States	I-LOC
-Government	O
+Government	I-LOC
 ,	O
 two	O
 percent	O
 by	O
-the	O
-Canadian	B-ORG
-Government	I-ORG
+the	B-LOC
+Canadian	I-LOC
+Government	I-LOC
 and	O
 Fiat	B-ORG
 would	O
@@ -3446,10 +3443,10 @@ percent	O
 share	O
 .	O
 
-Chrysler	B-ORG
-Chief	O
-Executive	O
-Robert	B-PER
+Chrysler	B-PER
+Chief	I-PER
+Executive	I-PER
+Robert	I-PER
 Nardelli	I-PER
 will	O
 step	O
@@ -3465,7 +3462,7 @@ finalized	O
 Initially	O
 ,	O
 the	O
-Italian	O
+Italian	B-LOC
 company	O
 ,	O
 Fiat	B-ORG
@@ -3476,8 +3473,8 @@ three	O
 members	O
 on	O
 the	O
-emerging	O
-Chrysler	B-ORG
+emerging	B-ORG
+Chrysler	I-ORG
 's	O
 new	O
 board	O
@@ -3492,7 +3489,7 @@ appoint	O
 six	O
 .	O
 
-Fiat	B-ORG
+Fiat	O
 can	O
 assume	O
 the	O
@@ -3507,7 +3504,7 @@ American	O
 loans	O
 .	O
 
-Chrysler	B-ORG
+Chrysler	O
 administrators	O
 expect	O
 that	O
@@ -3543,7 +3540,7 @@ will	O
 function	O
 normally	O
 ,	O
-``	O
+''	O
 a	O
 top	O
 administration	O
@@ -3573,14 +3570,14 @@ go	O
 on	O
 normally	O
 .	O
+''	O
 
-``	O
 The	O
 bankruptcy	O
 filing	O
 indicated	O
 that	O
-Chrysler	B-ORG
+Chrysler	O
 was	O
 in	O
 debt	O
@@ -3604,19 +3601,19 @@ Meanwhile	O
 the	O
 deal	O
 with	O
-Fiat	B-ORG
+Fiat	O
 did	O
 go	O
 through	O
 ,	O
 and	O
-Chrysler	B-ORG
+Chrysler	O
 should	O
 have	O
 cars	O
 designed	O
 by	O
-Fiat	B-ORG
+Fiat	O
 out	O
 on	O
 the	O
@@ -3633,7 +3630,7 @@ partnership	O
 that	O
 will	O
 give	O
-Chrysler	B-ORG
+Chrysler	O
 a	O
 chance	O
 not	O
@@ -3650,14 +3647,14 @@ global	O
 auto	O
 industry	O
 ,	O
-``	O
+''	O
 said	O
 American	O
 president	O
-Obama	B-PER
+Obama	O
 ,	O
 ``	O
-Fiat	B-ORG
+Fiat	O
 has	O
 demonstrated	O
 that	O
@@ -3677,14 +3674,14 @@ of	O
 the	O
 industry	O
 .	O
+''	O
 
-``	O
 However	O
 ,	O
 automotive	O
 analyst	O
-Erich	B-PER
-Merkle	I-PER
+Erich	O
+Merkle	O
 has	O
 hesitations	O
 .	O
@@ -3702,8 +3699,8 @@ work	O
 that	O
 well	O
 ,	O
-``	O
-Merkle	B-PER
+''	O
+Merkle	O
 said	O
 ,	O
 ``	O
@@ -3720,16 +3717,16 @@ look	O
 on	O
 paper	O
 .	O
+''	O
 
-``	O
 The	O
 restructuring	O
 has	O
 been	O
 managed	O
 by	O
-Steve	B-PER
-Rattner	I-PER
+Steve	O
+Rattner	O
 ,	O
 a	O
 former	O
@@ -3738,23 +3735,23 @@ banker	O
 ,	O
 and	O
 the	O
-U.S.	B-LOC
+U.S.	O
 Government	O
 auto	O
 task	O
 force	O
 .	O
 
-Obama	B-PER
+Obama	O
 has	O
 set	O
 three	O
 ultimatums	O
 before	O
-Fiat	B-ORG
+Fiat	O
 .	O
 
-Fiat	B-ORG
+Fiat	O
 should	O
 produce	O
 a	O
@@ -3767,59 +3764,60 @@ while	O
 managing	O
 the	O
 new	O
-Chrysler	B-ORG
+Chrysler	O
 ,	O
 transfer	O
 fuel	O
 efficient	O
-Fiat	B-ORG
+Fiat	O
 technology	O
 to	O
-Chrysler	B-ORG
+Chrysler	O
 factories	O
 in	O
 the	O
-United	B-LOC
-States	I-LOC
+United	O
+States	O
 ,	O
 and	O
 produce	O
 cars	O
 in	O
-Chrysler	B-ORG
+Chrysler	O
 factories	O
 and	O
 distribute	O
 them	O
 in	O
-Europe	B-LOC
+Europe	O
 .	O
 
-US	B-LOC
-automaker	O
-GM	B-ORG
+US	B-ORG
+automaker	I-ORG
+GM	I-ORG
 reports	O
 losses	O
 of	O
 $	O
 6	O
 billion	O
+
 May	O
 7	O
 ,	O
 2009	O
-United	B-LOC
-States	I-LOC
-automobile	O
-company	O
-General	B-ORG
+
+United	B-ORG
+States	I-ORG
+automobile	I-ORG
+company	I-ORG
+General	I-ORG
 Motors	I-ORG
 announced	O
 it	O
 has	O
 lost	O
-US	B-LOC
-$	O
+US$	O
 6	O
 billion	O
 in	O
@@ -3909,7 +3907,7 @@ per	O
 share	O
 .	O
 
-GM	B-ORG
+GM	O
 had	O
 also	O
 reported	O
@@ -4014,17 +4012,17 @@ ca	O
 n't	O
 recover	O
 ,	O
-``	O
+''	O
 said	O
-Ray	B-PER
-Young	I-PER
+Ray	O
+Young	O
 ,	O
 the	O
 chief	O
 financial	O
 officer	O
 for	O
-GM	B-ORG
+GM	O
 .	O
 
 ``	O
@@ -4038,13 +4036,13 @@ percent	O
 chance	O
 of	O
 a	O
-GM	B-ORG
+GM	O
 bankruptcy	O
 .	O
 
 While	O
 the	O
-GM	B-ORG
+GM	O
 equity	O
 today	O
 is	O
@@ -4054,7 +4052,7 @@ uninvestable	O
 we	O
 increasingly	O
 believe	O
-GM	B-ORG
+GM	O
 may	O
 emerge	O
 substantially	O
@@ -4083,29 +4081,31 @@ targeted	O
 dealer	O
 cuts	O
 ,	O
-``	O
+''	O
 analyst	O
-Himanshu	B-PER
-Patel	I-PER
+Himanshu	O
+Patel	O
 said	O
 .	O
 
-U.S.	B-LOC
-automaker	O
-Chrysler	B-ORG
+U.S.	B-ORG
+automaker	I-ORG
+Chrysler	I-ORG
 wants	O
 to	O
 eliminate	O
 789	O
 dealerships	O
+
 May	O
 14	O
 ,	O
 2009	O
-American	O
-automobile	O
-manufacturer	O
-Chrysler	B-ORG
+
+American	B-ORG
+automobile	I-ORG
+manufacturer	I-ORG
+Chrysler	I-ORG
 LLC	I-ORG
 has	O
 said	O
@@ -4165,9 +4165,9 @@ been	O
 scheduled	O
 in	O
 the	O
-US	B-ORG
-Bankruptcy	I-ORG
-Court	I-ORG
+US	B-LOC
+Bankruptcy	O
+Court	O
 to	O
 determine	O
 whether	O
@@ -4196,16 +4196,16 @@ be	O
 prepared	O
 for	O
 ,	O
-``	O
+''	O
 said	O
 Jim	B-PER
 Press	I-PER
 ,	O
-the	O
-Vice	O
-Chairman	O
-of	O
-Chrysler	B-ORG
+the	B-PER
+Vice	I-PER
+Chairman	I-PER
+of	I-PER
+Chrysler	I-PER
 .	O
 
 Company	O
@@ -4300,27 +4300,29 @@ better	O
 financial	O
 viability	O
 ,	O
-``	O
+''	O
 said	O
 Press	O
 .	O
 
-U.S.	B-LOC
-automaker	O
-GM	B-ORG
+U.S.	B-ORG
+automaker	I-ORG
+GM	I-ORG
 plans	O
 to	O
 close	O
 1,1	O
 dealerships	O
+
 May	O
 15	O
 ,	O
 2009	O
-American	O
-automobile	O
-manufacturer	O
-General	B-ORG
+
+American	B-ORG
+automobile	I-ORG
+manufacturer	I-ORG
+General	I-ORG
 Motors	I-ORG
 (	I-ORG
 GM	I-ORG
@@ -4357,11 +4359,11 @@ a	O
 day	O
 after	O
 Chrysler	B-ORG
-,	O
-another	O
-U.S.	B-LOC
-car	O
-maker	O
+,	I-ORG
+another	I-ORG
+U.S.	I-ORG
+car	I-ORG
+maker	I-ORG
 ,	O
 released	O
 a	O
@@ -4423,13 +4425,13 @@ At	O
 the	O
 moment	O
 ,	O
-GM	B-ORG
+GM	O
 has	O
 6,246	O
 dealers	O
 in	O
 the	O
-U.S.	B-LOC
+U.S.	O
 .	O
 
 It	O
@@ -4447,7 +4449,7 @@ of	O
 2010	O
 .	O
 
-GM	B-ORG
+GM	O
 said	O
 the	O
 dealerships	O
@@ -4464,11 +4466,11 @@ very	O
 small	O
 sales	O
 volume	O
-U.S.	B-LOC
+U.S.	O
 dealers	O
 .	O
+''	O
 
-``	O
 ``	O
 They	O
 're	O
@@ -4493,9 +4495,9 @@ of	O
 business	O
 anyway	O
 ,	O
-``	O
+''	O
 said	O
-GM	B-ORG
+GM	O
 's	O
 sales	O
 ,	O
@@ -4539,8 +4541,8 @@ do	O
 it	O
 today	O
 .	O
+''	O
 
-``	O
 The	O
 dealers	O
 that	O
@@ -4563,7 +4565,7 @@ only	O
 7	O
 %	O
 of	O
-GM	B-ORG
+GM	O
 's	O
 2008	O
 revenue	O
@@ -4571,9 +4573,9 @@ revenue	O
 
 Bankruptcy	O
 for	O
-U.S.	B-LOC
-automaker	O
-GM	B-ORG
+U.S.	B-ORG
+automaker	I-ORG
+GM	I-ORG
 becomes	O
 almost	O
 certain	O
@@ -4581,17 +4583,19 @@ after	O
 bondholder	O
 offers	O
 fail	O
+
 May	O
 28	O
 ,	O
 2009	O
-The	O
-United	B-LOC
-States	I-LOC
-automobile	O
-manufacturing	O
-firm	O
-General	B-ORG
+
+The	B-ORG
+United	I-ORG
+States	I-ORG
+automobile	I-ORG
+manufacturing	I-ORG
+firm	I-ORG
+General	I-ORG
 Motors	I-ORG
 announced	O
 on	O
@@ -4606,8 +4610,7 @@ not	O
 exchange	O
 GM	B-ORG
 's	O
-US	B-LOC
-$	O
+US$	O
 27	O
 billion	O
 debt	O
@@ -4654,8 +4657,8 @@ measures	O
 
 U.S.	B-LOC
 President	O
-Barack	B-PER
-Obama	I-PER
+Barack	O
+Obama	O
 's	O
 administration	O
 said	O
@@ -4713,7 +4716,7 @@ debt	O
 reduction	O
 requirement	O
 ,	O
-``	O
+''	O
 GM	B-ORG
 said	O
 in	O
@@ -4749,39 +4752,41 @@ file	O
 for	O
 bankruptcy	O
 ,	O
-``	O
+''	O
 said	O
 a	O
 university	O
 professor	O
 from	O
 the	O
-University	B-ORG
-of	I-ORG
-Michigan	I-ORG
+University	O
+of	O
+Michigan	O
 who	O
 specializes	O
 in	O
 bankruptcy	O
 .	O
 
-U.S.	B-LOC
-manufacturer	O
-General	B-ORG
+U.S.	B-ORG
+manufacturer	I-ORG
+General	I-ORG
 Motors	I-ORG
 seeks	O
 bankruptcy	O
 protection	O
+
 June	O
 1	O
 ,	O
 2009	O
-United	B-LOC
-States	I-LOC
-automobile	O
-manufacturing	O
-firm	O
-General	B-ORG
+
+United	B-ORG
+States	I-ORG
+automobile	I-ORG
+manufacturing	I-ORG
+firm	I-ORG
+General	I-ORG
 Motors	I-ORG
 filed	O
 for	O
@@ -4801,8 +4806,8 @@ Monday	O
 in	O
 a	O
 Manhattan	B-LOC
-,	O
-New	B-LOC
+,	I-LOC
+New	I-LOC
 York	I-LOC
 federal	O
 bankruptcy	O
@@ -4817,7 +4822,7 @@ bankruptcy	O
 filing	O
 for	O
 a	O
-U.S.	B-LOC
+U.S.	O
 manufacturing	O
 company	O
 ,	O
@@ -4845,23 +4850,23 @@ bankruptcy	O
 filing	O
 in	O
 recent	O
-U.S.	B-LOC
+U.S.	O
 history	O
 --	O
 after	O
 the	O
 bankruptcies	O
 of	O
-Lehman	B-ORG
-Brothers	I-ORG
+Lehman	O
+Brothers	O
 (	O
 $	O
 691.06	O
 billion	O
 )	O
 ,	O
-Washington	B-ORG
-Mutual	I-ORG
+Washington	O
+Mutual	O
 (	O
 $	O
 327.91	O
@@ -4869,7 +4874,7 @@ billion	O
 )	O
 ,	O
 and	O
-WorldCom	B-ORG
+WorldCom	O
 (	O
 $	O
 103.91	O
@@ -4877,39 +4882,41 @@ billion	O
 )	O
 .	O
 
-Barack	B-PER
-Obama	I-PER
+Barack	O
+Obama	O
 presents	O
 rescue	O
 plan	O
 after	O
-GM	B-ORG
+GM	O
 declaration	O
 of	O
 bankruptcy	O
+
 June	O
 1	O
 ,	O
 2009	O
+
 In	O
 a	O
 televised	O
 speech	O
 from	O
-the	O
-White	B-LOC
+the	B-LOC
+White	I-LOC
 House	I-LOC
 at	O
 16:00	O
 UTC	O
 today	O
 ,	O
-President	O
-of	O
-the	O
-United	B-LOC
-States	I-LOC
-Barack	B-PER
+President	B-PER
+of	I-PER
+the	I-PER
+United	I-PER
+States	I-PER
+Barack	I-PER
 Obama	I-PER
 presented	O
 a	O
@@ -4918,7 +4925,7 @@ plan	O
 following	O
 the	O
 12:00	O
-UTC	B-ORG
+UTC	O
 announcement	O
 by	O
 General	B-ORG
@@ -4964,7 +4971,7 @@ in	O
 the	O
 making	O
 ,	O
-``	O
+''	O
 Obama	B-PER
 explained	O
 the	O
@@ -4998,7 +5005,7 @@ of	O
 the	O
 past	O
 ,	O
-``	O
+''	O
 and	O
 that	O
 loaning	O
@@ -5036,10 +5043,10 @@ government	O
 in	O
 conjunction	O
 with	O
-the	O
-governments	O
-of	O
-Canada	B-LOC
+the	B-LOC
+governments	I-LOC
+of	I-LOC
+Canada	I-LOC
 and	O
 Ontario	B-LOC
 (	O
@@ -5050,10 +5057,10 @@ for	O
 their	O
 roles	O
 alongside	O
-the	O
-government	O
-of	O
-Germany	B-LOC
+the	B-LOC
+government	I-LOC
+of	I-LOC
+Germany	I-LOC
 which	O
 he	O
 thanked	O
@@ -5079,8 +5086,8 @@ Motors	I-ORG
 .	O
 
 The	O
-United	B-LOC
-States	I-LOC
+United	O
+States	O
 government	O
 would	O
 hold	O
@@ -5094,13 +5101,12 @@ The	O
 government	O
 will	O
 give	O
-GM	B-ORG
+GM	O
 a	O
 capital	O
 infusion	O
 of	O
-US	B-LOC
-$	O
+US$	O
 30	O
 billion	O
 in	O
@@ -5126,30 +5132,30 @@ refused	O
 ``	O
 to	O
 let	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 and	O
-Chrysler	B-ORG
+Chrysler	O
 become	O
 wards	O
 of	O
 the	O
 state	O
-``	O
+''	O
 ,	O
 and	O
 described	O
 the	O
 bankruptcy	O
 of	O
-Chrysler	B-ORG
+Chrysler	O
 ,	O
 and	O
 the	O
 bankruptcy	O
 of	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 that	O
 he	O
 envisioned	O
@@ -5161,7 +5167,7 @@ quick	O
 surgical	O
 ,	O
 bankruptcies	O
-``	O
+''	O
 .	O
 
 He	O
@@ -5170,7 +5176,7 @@ to	O
 the	O
 bankruptcy	O
 of	O
-Chrysler	B-ORG
+Chrysler	O
 as	O
 an	O
 example	O
@@ -5179,23 +5185,23 @@ what	O
 he	O
 envision	O
 for	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 ,	O
 but	O
 stated	O
 that	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 was	O
 a	O
 ``	O
 more	O
 complex	O
 company	O
-``	O
+''	O
 than	O
-Chrysler	B-ORG
+Chrysler	O
 .	O
 
 Responding	O
@@ -5233,10 +5239,10 @@ had	O
 ``	O
 no	O
 interest	O
-``	O
+''	O
 in	O
 running	O
-GM	B-ORG
+GM	O
 ,	O
 and	O
 that	O
@@ -5250,7 +5256,7 @@ from	O
 exercising	O
 its	O
 rights	O
-``	O
+''	O
 as	O
 a	O
 corporate	O
@@ -5289,8 +5295,8 @@ car	O
 to	O
 make	O
 .	O
+''	O
 
-``	O
 He	O
 stated	O
 that	O
@@ -5298,7 +5304,7 @@ he	O
 expected	O
 the	O
 restructured	O
-GM	B-ORG
+GM	O
 to	O
 make	O
 ``	O
@@ -5313,7 +5319,7 @@ cars	O
 of	O
 tomorrow	O
 ,	O
-``	O
+''	O
 and	O
 several	O
 times	O
@@ -5324,18 +5330,18 @@ anticipated	O
 as	O
 ``	O
 better	O
-``	O
+''	O
 and	O
 ``	O
 fuel-efficient	O
-``	O
+''	O
 cars	O
 ,	O
 after	O
 a	O
 streamlining	O
 of	O
-GM	B-ORG
+GM	O
 's	O
 brands	O
 .	O
@@ -5359,8 +5365,8 @@ times	O
 are	O
 over	O
 .	O
+''	O
 
-``	O
 He	O
 described	O
 the	O
@@ -5374,10 +5380,10 @@ shareholders	O
 communities	O
 based	O
 around	O
-GM	B-ORG
+GM	O
 plants	O
 ,	O
-GM	B-ORG
+GM	O
 dealers	O
 ,	O
 and	O
@@ -5393,7 +5399,7 @@ for	O
 the	O
 next	O
 generation	O
-``	O
+''	O
 on	O
 their	O
 parts	O
@@ -5407,20 +5413,20 @@ live	O
 in	O
 ``	O
 an	O
-America	B-LOC
+America	O
 that	O
 still	O
 makes	O
 things	O
 ,	O
-``	O
+''	O
 concluding	O
 that	O
 one	O
 day	O
 the	O
-United	B-LOC
-States	I-LOC
+United	O
+States	O
 might	O
 return	O
 to	O
@@ -5435,15 +5441,15 @@ widely-repeated	O
 mis-quotation	O
 of	O
 what	O
-Charles	B-PER
-Erwin	I-PER
-Wilson	I-PER
+Charles	O
+Erwin	O
+Wilson	O
 once	O
 testified	O
 before	O
 the	O
-U.S.	B-ORG
-Senate	I-ORG
+U.S.	O
+Senate	O
 when	O
 nominated	O
 for	O
@@ -5452,7 +5458,7 @@ position	O
 of	O
 Secretary	O
 of	O
-Defense	B-ORG
+Defense	O
 )	O
 would	O
 once	O
@@ -5465,19 +5471,19 @@ what	O
 is	O
 good	O
 for	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 is	O
 good	O
 for	O
 the	O
-United	B-LOC
-States	I-LOC
-of	I-LOC
-America	I-LOC
+United	O
+States	O
+of	O
+America	O
 .	O
+''	O
 
-``	O
 CEO	O
 of	O
 GM	B-ORG
@@ -5487,16 +5493,18 @@ for	O
 ``	O
 New	B-ORG
 GM	I-ORG
-``	O
+''	O
 after	O
 auto	O
 company	O
 declared	O
 bankruptcy	O
+
 June	O
 4	O
 ,	O
 2009	O
+
 In	O
 a	O
 New	B-LOC
@@ -5505,7 +5513,7 @@ press	O
 conference	O
 at	O
 16:15	O
-UTC	B-ORG
+UTC	O
 ,	O
 June	O
 1st	O
@@ -5513,13 +5521,13 @@ June	O
 Fritz	B-PER
 Henderson	I-PER
 ,	O
-the	O
-Chief	O
-Executive	O
-Officer	O
-of	O
-General	B-ORG
-Motors	I-ORG
+the	B-PER
+Chief	I-PER
+Executive	I-PER
+Officer	I-PER
+of	I-PER
+General	I-PER
+Motors	I-PER
 ,	O
 which	O
 filed	O
@@ -5546,7 +5554,7 @@ a	O
 ``	O
 New	O
 GM	O
-``	O
+''	O
 .	O
 
 Speaking	O
@@ -5558,7 +5566,7 @@ safe	O
 harbor	O
 provisions	O
 of	O
-U.S.	B-LOC
+U.S.	O
 law	O
 ,	O
 Henderson	B-PER
@@ -5572,13 +5580,13 @@ a	O
 ``	O
 defining	O
 moment	O
-``	O
+''	O
 in	O
 the	O
 history	O
 of	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 .	O
 
 Speaking	O
@@ -5589,8 +5597,8 @@ he	O
 said	O
 that	O
 ``	O
-The	O
-GM	B-ORG
+The	B-ORG
+GM	I-ORG
 that	O
 let	O
 you	O
@@ -5598,14 +5606,14 @@ down	O
 is	O
 history	O
 ,	O
-``	O
+''	O
 and	O
 described	O
 a	O
 ``	O
 New	O
 GM	O
-``	O
+''	O
 that	O
 he	O
 expected	O
@@ -5664,7 +5672,7 @@ but	O
 pure	O
 unadulterated	O
 speed	O
-``	O
+''	O
 was	O
 his	O
 expectation	O
@@ -5677,12 +5685,12 @@ He	O
 emphasized	O
 that	O
 ``	O
-GM	B-ORG
+GM	O
 remains	O
 open	O
 for	O
 business	O
-``	O
+''	O
 during	O
 the	O
 bankruptcy	O
@@ -5738,35 +5746,35 @@ do	O
 it	O
 once	O
 .	O
+''	O
 
-``	O
 He	O
 stated	O
 that	O
 the	O
 plan	O
 for	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 had	O
 the	O
 support	O
 of	O
 the	O
-United	B-ORG
-Auto	I-ORG
-Workers	I-ORG
+United	O
+Auto	O
+Workers	O
 union	O
 ,	O
 the	O
-Canadian	B-ORG
-Auto	I-ORG
-Workers	I-ORG
+Canadian	O
+Auto	O
+Workers	O
 union	O
 ,	O
 the	O
-GM	B-ORG
-VEBA	I-ORG
+GM	O
+VEBA	O
 ,	O
 and	O
 a	O
@@ -5776,14 +5784,14 @@ the	O
 unsecured	O
 bondholders	O
 of	O
-GM	B-ORG
+GM	O
 .	O
 
 He	O
 also	O
 mentioned	O
 that	O
-GM	B-ORG
+GM	O
 had	O
 already	O
 received	O
@@ -5808,8 +5816,8 @@ the	O
 possibility	O
 of	O
 the	O
-United	B-LOC
-States	I-LOC
+United	O
+States	O
 federal	O
 government	O
 ,	O
@@ -5838,10 +5846,7 @@ fuel-efficient	O
 and	O
 green	O
 vehicles	O
-``	O
-;	O
-''	O
-
+";"	O
 he	O
 first	O
 observed	O
@@ -5865,7 +5870,7 @@ in	O
 running	O
 our	O
 business	O
-``	O
+''	O
 and	O
 that	O
 he	O
@@ -5887,7 +5892,7 @@ where	O
 the	O
 management	O
 of	O
-GM	B-ORG
+GM	O
 wants	O
 to	O
 make	O
@@ -5911,7 +5916,7 @@ business	O
 ,	O
 and	O
 the	O
-U.S.	B-LOC
+U.S.	O
 government	O
 wants	O
 to	O
@@ -5935,8 +5940,8 @@ going	O
 to	O
 happen	O
 .	O
+''	O
 
-``	O
 Expanding	O
 on	O
 that	O
@@ -5950,7 +5955,7 @@ the	O
 ``	O
 New	O
 GM	O
-``	O
+''	O
 to	O
 focus	O
 upon	O
@@ -5960,7 +5965,7 @@ fuel-efficient	O
 and	O
 green	O
 technology	O
-``	O
+''	O
 ,	O
 and	O
 that	O
@@ -5969,7 +5974,7 @@ both	O
 in	O
 accordance	O
 with	O
-U.S.	B-LOC
+U.S.	O
 environmental	O
 laws	O
 and	O
@@ -5992,7 +5997,7 @@ of	O
 vehicles	O
 that	O
 the	O
-U.S.	B-LOC
+U.S.	O
 government	O
 would	O
 encourage	O
@@ -6000,9 +6005,9 @@ encourage	O
 
 The	O
 ``	O
-New	B-ORG
-GM	I-ORG
-``	O
+New	O
+GM	O
+''	O
 he	O
 also	O
 expected	O
@@ -6013,7 +6018,7 @@ on	O
 four	O
 core	O
 brands	O
-``	O
+''	O
 ,	O
 and	O
 will	O
@@ -6028,14 +6033,14 @@ that	O
 He	O
 stated	O
 that	O
-GM	B-ORG
+GM	O
 would	O
 offer	O
 a	O
 ``	O
 deferred	O
 termination	O
-``	O
+''	O
 package	O
 to	O
 dealers	O
@@ -6047,7 +6052,7 @@ to	O
 cease	O
 dealing	O
 in	O
-GM	B-ORG
+GM	O
 vehicles	O
 in	O
 a	O
@@ -6066,34 +6071,34 @@ filings	O
 did	O
 not	O
 cover	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 '	O
 businesses	O
 in	O
-Latin	B-LOC
-America	I-LOC
+Latin	O
+America	O
 ,	O
-Europe	B-LOC
+Europe	O
 and	O
 the	O
-Middle	B-LOC
-East	I-LOC
+Middle	O
+East	O
 ,	O
 and	O
-Asia	B-LOC
+Asia	O
 and	O
 the	O
-Pacific	B-LOC
+Pacific	O
 .	O
 
 Of	O
-GM	B-ORG
+GM	O
 's	O
 profitable	O
 ventures	O
 in	O
-China	B-LOC
+China	O
 ,	O
 specifically	O
 ,	O
@@ -6110,7 +6115,7 @@ of	O
 the	O
 New	O
 GM	O
-``	O
+''	O
 .	O
 
 In	O
@@ -6120,16 +6125,16 @@ questions	O
 of	O
 whether	O
 the	O
-New	B-ORG
-GM	I-ORG
+New	O
+GM	O
 would	O
 import	O
 cars	O
 from	O
-China	B-LOC
+China	O
 to	O
 the	O
-U.S.	B-LOC
+U.S.	O
 ,	O
 he	O
 stated	O
@@ -6146,31 +6151,31 @@ build	O
 where	O
 we	O
 sell	O
-``	O
+''	O
 applied	O
 in	O
 both	O
 directions	O
 ,	O
 with	O
-GM	B-ORG
+GM	O
 building	O
 in	O
-China	B-LOC
+China	O
 to	O
 sell	O
 in	O
-China	B-LOC
+China	O
 and	O
 building	O
 in	O
 the	O
-U.S.	B-LOC
+U.S.	O
 to	O
 sell	O
 in	O
 the	O
-U.S.	B-LOC
+U.S.	O
 ,	O
 stating	O
 that	O
@@ -6203,7 +6208,7 @@ to	O
 lower	O
 the	O
 break-even	O
-EBIT	B-ORG
+EBIT	O
 point	O
 for	O
 the	O
@@ -6218,7 +6223,7 @@ speculate	O
 upon	O
 when	O
 the	O
-U.S.	B-LOC
+U.S.	O
 government	O
 would	O
 sell	O
@@ -6239,9 +6244,9 @@ better	O
 addressed	O
 to	O
 the	O
-U.S.	B-ORG
-Treasury	I-ORG
-``	O
+U.S.	O
+Treasury	O
+''	O
 ,	O
 and	O
 merely	O
@@ -6257,11 +6262,11 @@ years	O
 ,	O
 not	O
 months	O
-``	O
+''	O
 when	O
 the	O
-U.S.	B-ORG
-Treasury	I-ORG
+U.S.	O
+Treasury	O
 felt	O
 it	O
 would	O
@@ -6273,8 +6278,8 @@ return	O
 for	O
 taxpayers	O
 .	O
+''	O
 
-``	O
 Penske	B-ORG
 Auto	I-ORG
 selected	O
@@ -6283,21 +6288,23 @@ buy	O
 General	B-ORG
 Motors	I-ORG
 '	O
-Saturn	B-ORG
+Saturn	O
 unit	O
+
 June	O
 5	O
 ,	O
 2009	O
+
 General	B-ORG
 Motors	I-ORG
 Corporation	I-ORG
 (	O
-GM	O
+GM	B-ORG
 )	O
 ,	O
 an	O
-American	O
+American	B-LOC
 automaker	O
 which	O
 has	O
@@ -6310,8 +6317,8 @@ announced	O
 on	O
 Friday	O
 that	O
-the	O
-Penske	B-ORG
+the	B-ORG
+Penske	I-ORG
 Automotive	I-ORG
 Group	I-ORG
 (	O
@@ -6340,7 +6347,7 @@ includes	O
 rights	O
 to	O
 the	O
-Saturn	O
+Saturn	B-ORG
 brand	O
 ,	O
 its	O
@@ -6362,10 +6369,10 @@ discontinued	O
 the	O
 Sky	O
 and	O
-Astra	B-ORG
+Astra	O
 .	O
 
-GM	B-ORG
+GM	O
 would	O
 continue	O
 building	O
@@ -6388,14 +6395,14 @@ more	O
 years	O
 .	O
 
-Saturn	B-ORG
+Saturn	O
 has	O
 350	O
 dealers	O
 across	O
 the	O
-United	B-LOC
-States	I-LOC
+United	O
+States	O
 .	O
 
 The	O
@@ -6426,9 +6433,9 @@ deal	O
 
 According	O
 to	O
-Penske	B-PER
+Penske	O
 future	O
-Saturn	B-ORG
+Saturn	O
 vehicles	O
 will	O
 be	O
@@ -6457,7 +6464,7 @@ car	O
 company	O
 .	O
 
-PAG	B-ORG
+PAG	O
 is	O
 in	O
 talks	O
@@ -6467,20 +6474,20 @@ international	O
 automakers	O
 to	O
 replace	O
-GM	B-ORG
+GM	O
 after	O
 2011	O
 .	O
 
-Automotive	B-ORG
-News	I-ORG
+Automotive	O
+News	O
 reports	O
 that	O
-Renault	B-ORG
-Samsung	I-ORG
-Motors	I-ORG
+Renault	O
+Samsung	O
+Motors	O
 of	O
-Korea	B-LOC
+Korea	O
 is	O
 the	O
 most	O
@@ -6488,22 +6495,22 @@ likely	O
 candidate	O
 .	O
 
-Penske	B-PER
+Penske	O
 wants	O
-Jill	B-PER
-Lajdziak	I-PER
+Jill	O
+Lajdziak	O
 ,	O
-Saturn	B-ORG
+Saturn	O
 's	O
 general	O
 manager	O
 ,	O
 and	O
-Tom	B-PER
-LaSorda	I-PER
+Tom	O
+LaSorda	O
 ,	O
 former	O
-Chrysler	B-ORG
+Chrysler	O
 President	O
 to	O
 head	O
@@ -6515,20 +6522,20 @@ it	O
 is	O
 independent	O
 of	O
-GM	B-ORG
+GM	O
 .	O
 
-Serra	B-ORG
-Automotive	I-ORG
+Serra	O
+Automotive	O
 in	O
-Grand	B-LOC
-Blanc	I-LOC
-Township	I-LOC
+Grand	O
+Blanc	O
+Township	O
 ,	O
-Genesee	B-LOC
-County	I-LOC
+Genesee	O
+County	O
 ,	O
-Michigan	B-LOC
+Michigan	O
 ,	O
 is	O
 in	O
@@ -6544,24 +6551,26 @@ new	O
 Saturn	O
 lead	O
 by	O
-Penske	B-PER
+Penske	O
 .	O
 
-Automobile	O
-manufacturer	O
-Ford	B-ORG
+Automobile	B-ORG
+manufacturer	I-ORG
+Ford	I-ORG
 posts	O
 unexpected	O
 profits	O
+
 November	O
 3	O
 ,	O
 2009	O
-The	O
-US	B-LOC
-automobile	O
-manufacturer	O
-Ford	B-ORG
+
+The	B-ORG
+US	I-ORG
+automobile	I-ORG
+manufacturer	I-ORG
+Ford	I-ORG
 has	O
 said	O
 that	O
@@ -6571,8 +6580,7 @@ a	O
 net	O
 profit	O
 of	O
-US	B-LOC
-$	O
+US$	O
 997	O
 million	O
 in	O
@@ -6592,7 +6600,7 @@ be	O
 ``	O
 solidly	O
 profitable	O
-``	O
+''	O
 by	O
 2011	O
 .	O
@@ -6615,7 +6623,7 @@ lose	O
 money	O
 .	O
 
-Ford	B-ORG
+Ford	O
 's	O
 profits	O
 equate	O
@@ -6651,7 +6659,7 @@ third-quarter	O
 results	O
 clearly	O
 show	O
-Ford	B-ORG
+Ford	O
 is	O
 making	O
 tremendous	O
@@ -6662,14 +6670,14 @@ prolonged	O
 economic	O
 slump	O
 ,	O
-``	O
+''	O
 said	O
-the	O
-firm	O
-'s	O
-chief	O
-executive	O
-officer	O
+the	B-PER
+firm	I-PER
+'s	I-PER
+chief	I-PER
+executive	I-PER
+officer	I-PER
 ,	O
 Alan	B-PER
 Mulally	I-PER
@@ -6698,9 +6706,9 @@ to	O
 grow	O
 stronger	O
 .	O
+''	O
 
-``	O
-Mulally	B-PER
+Mulally	O
 predicted	O
 that	O
 his	O
@@ -6734,23 +6742,25 @@ operating	O
 profit	O
 .	O
 
-Automaker	O
-GM	B-ORG
+Automaker	B-ORG
+GM	I-ORG
 to	O
 cut	O
 10	O
 jobs	O
 at	O
 Opel	B-ORG
+
 November	O
 5	O
 ,	O
 2009	O
-The	O
-US	B-LOC
-car	O
-manufacturer	O
-General	B-ORG
+
+The	B-ORG
+US	I-ORG
+car	I-ORG
+manufacturer	I-ORG
+General	I-ORG
 Motors	I-ORG
 said	O
 that	O
@@ -6760,21 +6770,21 @@ axe	O
 10	O
 jobs	O
 at	O
-its	O
-European	O
-division	O
+its	B-ORG
+European	I-ORG
+division	I-ORG
 ,	O
 Opel	B-ORG
 .	O
 
 According	O
 to	O
-the	O
-company	O
-'s	O
-vice	O
-president	O
-John	B-PER
+the	B-PER
+company	I-PER
+'s	I-PER
+vice	I-PER
+president	I-PER
+John	I-PER
 Smith	I-PER
 ,	O
 the	O
@@ -6822,12 +6832,12 @@ of	O
 the	O
 plan	O
 to	O
-European	O
+European	B-LOC
 governments	O
 ``	O
 very	O
 soon	O
-``	O
+''	O
 .	O
 
 A	O
@@ -6836,7 +6846,7 @@ before	O
 the	O
 announcement	O
 ,	O
-GM	B-ORG
+GM	O
 said	O
 it	O
 was	O
@@ -6845,9 +6855,9 @@ a	O
 deal	O
 to	O
 sell	O
-Opel	B-ORG
-to	I-ORG
-Magna	I-ORG
+Opel	O
+to	O
+Magna	O
 ,	O
 a	O
 Canadian	O
@@ -6858,16 +6868,16 @@ company	O
 
 Politicians	O
 in	O
-Germany	B-LOC
+Germany	O
 expressed	O
 disappointment	O
 at	O
-GM	B-ORG
+GM	O
 's	O
 cancellation	O
 of	O
 the	O
-Magna	B-ORG
+Magna	O
 deal	O
 ,	O
 which	O
@@ -6880,23 +6890,23 @@ favoured	O
 .	O
 
 ``	O
-GM	B-ORG
+GM	O
 's	O
 ]	O
 behaviour	O
 towards	O
-Germany	B-LOC
+Germany	O
 is	O
 completely	O
 unacceptable	O
 ,	O
-``	O
+''	O
 said	O
 German	O
 economy	O
 minister	O
-Rainer	B-PER
-Bruederle	I-PER
+Rainer	O
+Bruederle	O
 .	O
 
 The	O
@@ -6906,13 +6916,13 @@ the	O
 German	O
 state	O
 of	O
-North	B-LOC
-Rhine-Westphalia	I-LOC
+North	O
+Rhine-Westphalia	O
 remarked	O
 that	O
 ``	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 '	O
 behaviour	O
 shows	O
@@ -6928,10 +6938,10 @@ is	O
 completely	O
 unacceptable	O
 .	O
+''	O
 
-``	O
 The	O
-UK	B-LOC
+UK	O
 government	O
 ,	O
 however	O
@@ -6950,24 +6960,24 @@ the	O
 best	O
 decision	O
 for	O
-Britain	B-LOC
+Britain	O
 and	O
 our	O
 plants	O
 ,	O
-``	O
+''	O
 said	O
 the	O
 general	O
 secretary	O
 of	O
 the	O
-British	B-ORG
-union	I-ORG
-Unite	I-ORG
+British	O
+union	O
+Unite	O
 ,	O
-Tony	B-PER
-Woodley	I-PER
+Tony	O
+Woodley	O
 .	O
 
 ``	O
@@ -6976,8 +6986,8 @@ am	O
 absolutely	O
 delighted	O
 that	O
-General	B-ORG
-Motors	I-ORG
+General	O
+Motors	O
 have	O
 finally	O
 done	O
@@ -6990,11 +7000,11 @@ and	O
 for	O
 us	O
 ,	O
-``	O
+''	O
 he	O
 told	O
 the	O
-BBC	B-ORG
+BBC	O
 .	O
 
 About	O
@@ -7003,37 +7013,38 @@ people	O
 are	O
 employed	O
 by	O
-Opel	B-ORG
+Opel	O
 ,	O
 about	O
 25	O
 of	O
 them	O
 in	O
-Germany	B-LOC
+Germany	O
 .	O
 
 Ford	B-ORG
 Motors	I-ORG
 posts	O
-US	B-LOC
-$	O
+US$	O
 2.7	O
 billion	O
 annual	O
 profit	O
+
 January	O
 28	O
 ,	O
 2010	O
+
 Ford	B-ORG
 Motors	I-ORG
 Co.	I-ORG
 ,	O
-the	O
-automobile	O
-manufacturing	O
-firm	O
+the	B-ORG
+automobile	I-ORG
+manufacturing	I-ORG
+firm	I-ORG
 ,	O
 has	O
 posted	O
@@ -7045,8 +7056,7 @@ the	O
 last	O
 year	O
 of	O
-US	B-LOC
-$	O
+US$	O
 2.7	O
 billion	O
 ,	O
@@ -7131,7 +7141,7 @@ year	O
 previous	O
 .	O
 
-Ford	B-ORG
+Ford	O
 had	O
 a	O
 $	O
@@ -7150,7 +7160,7 @@ the	O
 fourth	O
 quarter	O
 ,	O
-Ford	B-ORG
+Ford	O
 brand	O
 sales	O
 were	O
@@ -7166,7 +7176,7 @@ in	O
 2008	O
 in	O
 the	O
-US	B-LOC
+US	O
 ,	O
 and	O
 obtained	O
@@ -7189,8 +7199,8 @@ and	O
 chief	O
 executive	O
 ,	O
-Alan	B-PER
-Mulally	I-PER
+Alan	O
+Mulally	O
 ,	O
 commented	O
 on	O
@@ -7213,7 +7223,7 @@ a	O
 pivotal	O
 year	O
 for	O
-Ford	B-ORG
+Ford	O
 and	O
 the	O
 strongest	O
@@ -7222,7 +7232,7 @@ yet	O
 that	O
 our	O
 One	O
-Ford	B-ORG
+Ford	O
 plan	O
 is	O
 working	O
@@ -7237,7 +7247,7 @@ toward	O
 profitable	O
 growth	O
 ,	O
-``	O
+''	O
 he	O
 said	O
 ,	O
@@ -7253,8 +7263,8 @@ but	O
 remain	O
 fragile	O
 .	O
+''	O
 
-``	O
 Ford	B-ORG
 's	O
 US	B-LOC
@@ -7263,11 +7273,13 @@ sales	O
 spike	O
 ,	O
 surpassing	O
-GM	B-ORG
+GM	O
+
 March	O
 3	O
 ,	O
 2010	O
+
 Ford	B-ORG
 Motor	I-ORG
 Company	I-ORG
@@ -7278,8 +7290,8 @@ that	O
 its	O
 sales	O
 in	O
-the	O
-United	B-LOC
+the	B-LOC
+United	I-LOC
 States	I-LOC
 rose	O
 43	O
@@ -7381,7 +7393,7 @@ the	O
 day	O
 .	O
 
-Ford	B-ORG
+Ford	O
 's	O
 sales	O
 were	O
@@ -7505,10 +7517,10 @@ large	O
 as	O
 those	O
 of	O
-Ford	B-ORG
+Ford	O
 .	O
 
-Toyota	B-ORG
+Toyota	O
 was	O
 the	O
 sole	O
@@ -7563,12 +7575,12 @@ resonating	O
 with	O
 customers	O
 ,	O
-``	O
+''	O
 said	O
-Ken	B-PER
-Czubay	I-PER
+Ken	O
+Czubay	O
 ,	O
-Ford	B-ORG
+Ford	O
 's	O
 vice	O
 president	O
@@ -7584,7 +7596,7 @@ he	O
 believed	O
 that	O
 traditional	O
-Toyota	B-ORG
+Toyota	O
 customers	O
 were	O
 not	O
@@ -7610,10 +7622,12 @@ majority	O
 stake	O
 in	O
 Chrysler	B-ORG
+
 May	O
 29	O
 ,	O
 2011	O
+
 Fiat	B-ORG
 announced	O
 on	O
@@ -7627,11 +7641,11 @@ the	O
 six	O
 percent	O
 of	O
-automaker	O
-Chrysler	B-ORG
+automaker	B-ORG
+Chrysler	I-ORG
 that	O
 the	O
-US	B-LOC
+US	O
 government	O
 currently	O
 owns	O
@@ -7640,7 +7654,7 @@ which	O
 would	O
 give	O
 the	O
-Italian	O
+Italian	B-LOC
 company	O
 a	O
 52	O
@@ -7648,7 +7662,7 @@ percent	O
 majority	O
 stake	O
 in	O
-Chrysler	B-ORG
+Chrysler	O
 .	O
 
 According	O
@@ -7661,8 +7675,8 @@ the	O
 company	O
 has	O
 told	O
-the	O
-US	B-ORG
+the	B-ORG
+US	I-ORG
 Treasury	I-ORG
 that	O
 it	O
@@ -7680,7 +7694,7 @@ Chrysler	B-ORG
 held	O
 by	O
 the	O
-US	B-LOC
+US	O
 government	O
 ,	O
 a	O
@@ -7764,8 +7778,8 @@ year	O
 According	O
 to	O
 analyst	O
-Maryann	B-PER
-Keller	I-PER
+Maryann	O
+Keller	O
 ,	O
 the	O
 deal	O
@@ -7799,11 +7813,11 @@ that	O
 they	O
 face	O
 .	O
+''	O
 
-``	O
 Analyst	O
-Rebecca	B-PER
-Lindland	I-PER
+Rebecca	O
+Lindland	O
 said	O
 that	O
 the	O
@@ -7837,8 +7851,8 @@ with	O
 the	O
 bailout	O
 .	O
+''	O
 
-``	O
 Ford	B-ORG
 Motor	I-ORG
 Company	I-ORG
@@ -7847,12 +7861,14 @@ cutting	O
 jobs	O
 by	O
 2012	O
+
 January	O
 23	O
 ,	O
 2006	O
-The	O
-Ford	B-ORG
+
+The	B-ORG
+Ford	I-ORG
 Motor	I-ORG
 Company	I-ORG
 ,	O
@@ -7881,8 +7897,7 @@ relieve	O
 Ford	B-ORG
 after	O
 a	O
-US	B-LOC
-$	O
+US$	O
 1.6	O
 billion	O
 loss	O
@@ -7901,7 +7916,7 @@ called	O
 ``	O
 Way	O
 Forward	O
-``	O
+''	O
 ,	O
 the	O
 brainchild	O
@@ -7944,8 +7959,8 @@ percent	O
 of	O
 Ford	B-ORG
 's	O
-North	O
-American	O
+North	B-LOC
+American	I-LOC
 workforce	O
 of	O
 122	O
@@ -7991,7 +8006,7 @@ be	O
 closed	O
 .	O
 
-Atlanta	B-LOC
+Atlanta	O
 makes	O
 the	O
 Ford	O
@@ -8006,8 +8021,8 @@ out	O
 .	O
 
 The	O
-St.	B-LOC
-Louis	I-LOC
+St.	O
+Louis	O
 plant	O
 is	O
 one	O
@@ -8017,7 +8032,7 @@ plants	O
 that	O
 manufactures	O
 the	O
-Ford	B-ORG
+Ford	O
 Explorer	O
 ,	O
 whose	O
@@ -8036,27 +8051,27 @@ will	O
 also	O
 close	O
 its	O
-Wixom	B-LOC
+Wixom	O
 ,	O
-Michigan	B-LOC
+Michigan	O
 plant	O
 ,	O
-Batavia	B-LOC
-Transmission	I-LOC
+Batavia	O
+Transmission	O
 in	O
-Ohio	B-LOC
+Ohio	O
 the	O
 Windsor	O
 Casting	O
 plant	O
 in	O
-Ontario	B-LOC
+Ontario	O
 which	O
 was	O
 previously	O
 announced	O
 by	O
-Ford	B-ORG
+Ford	O
 that	O
 it	O
 was	O
@@ -8068,19 +8083,19 @@ contract	O
 negotiations	O
 with	O
 the	O
-Canadian	B-ORG
-Auto	I-ORG
-Workers	I-ORG
+Canadian	O
+Auto	O
+Workers	O
 union	O
 .	O
 
 The	O
 plant	O
 in	O
-St.	B-LOC
-Thomas	I-LOC
+St.	O
+Thomas	O
 ,	O
-Ontario	B-LOC
+Ontario	O
 plant	O
 will	O
 have	O
@@ -8095,11 +8110,11 @@ The	O
 plant	O
 makes	O
 the	O
-Crown	B-LOC
-Victoria	I-LOC
+Crown	O
+Victoria	O
 and	O
-Grand	B-LOC
-Marquis	I-LOC
+Grand	O
+Marquis	O
 cars	O
 .	O
 
@@ -8111,17 +8126,17 @@ the	O
 one	O
 shift	O
 ,	O
-Whitey	B-PER
-MacDonald	I-PER
+Whitey	O
+MacDonald	O
 ,	O
 chairperson	O
 of	O
 Local	O
 1520	O
 ,	O
-Canadian	B-ORG
-Auto	I-ORG
-Workers	I-ORG
+Canadian	O
+Auto	O
+Workers	O
 union	O
 said	O
 ``	O
@@ -8191,8 +8206,8 @@ our	O
 track	O
 record	O
 .	O
+''	O
 
-``	O
 Positive	O
 news	O
 for	O
@@ -8200,7 +8215,7 @@ the	O
 plant	O
 is	O
 that	O
-Ford	B-ORG
+Ford	O
 is	O
 still	O
 committed	O
@@ -8232,8 +8247,8 @@ according	O
 to	O
 Automotive	O
 analyst	O
-Dennis	B-PER
-DesRosier	I-PER
+Dennis	O
+DesRosier	O
 believes	O
 that	O
 the	O
@@ -8242,18 +8257,18 @@ is	O
 still	O
 ``	O
 likely	O
-``	O
+''	O
 to	O
 close	O
 .	O
 
-DesRoiser	B-PER
+DesRoiser	O
 said	O
 ,	O
 ``	O
 The	O
-St.	B-LOC
-Thomas	I-LOC
+St.	O
+Thomas	O
 plant	O
 is	O
 old	O
@@ -8294,8 +8309,8 @@ to	O
 three	O
 years	O
 .	O
+''	O
 
-``	O
 Two	O
 more	O
 plants	O
@@ -8327,7 +8342,7 @@ year	O
 
 Also	O
 ,	O
-Ford	B-ORG
+Ford	O
 will	O
 fire	O
 12	O
@@ -8348,9 +8363,9 @@ current	O
 contract	O
 with	O
 the	O
-United	B-ORG
-Auto	I-ORG
-Workers	I-ORG
+United	O
+Auto	O
+Workers	O
 union	O
 ,	O
 workers	O
@@ -8367,7 +8382,7 @@ pay	O
 and	O
 benefits	O
 until	O
-Ford	B-ORG
+Ford	O
 negotiates	O
 a	O
 new	O
@@ -8399,15 +8414,15 @@ overtime	O
 .	O
 
 The	O
-UAW	B-ORG
+UAW	O
 President	O
-Ron	B-PER
-Gettelfinger	I-PER
+Ron	O
+Gettelfinger	O
 and	O
 Vice	O
 President	O
-Gerald	B-PER
-Bantom	I-PER
+Gerald	O
+Bantom	O
 called	O
 say	O
 the	O
@@ -8417,10 +8432,10 @@ is	O
 extremely	O
 disappointing	O
 .	O
+''	O
 
-``	O
 The	O
-UAW	B-ORG
+UAW	O
 issued	O
 statement	O
 saying	O
@@ -8444,7 +8459,7 @@ management	O
 failure	O
 to	O
 halt	O
-Ford	B-ORG
+Ford	O
 's	O
 sliding	O
 market	O
@@ -8482,8 +8497,8 @@ in	O
 the	O
 future	O
 .	O
+''	O
 
-``	O
 GM	B-ORG
 posts	O
 first	O
@@ -8491,10 +8506,12 @@ annual	O
 loss	O
 since	O
 1992	O
+
 January	O
 27	O
 ,	O
 2006	O
+
 General	B-ORG
 Motors	I-ORG
 logo	O
@@ -8503,8 +8520,8 @@ logo	O
 General	B-ORG
 Motors	I-ORG
 Corporation	I-ORG
-(	I-ORG
-GM	I-ORG
+(	O
+GM	B-ORG
 )	O
 has	O
 posted	O
@@ -8519,8 +8536,7 @@ since	O
 GM	B-ORG
 reported	O
 losing	O
-US	B-LOC
-$	O
+US$	O
 4.8	O
 billion	O
 in	O
@@ -8567,7 +8583,7 @@ former	O
 workers	O
 .	O
 
-GM	B-ORG
+GM	O
 warned	O
 that	O
 the	O
@@ -8588,7 +8604,7 @@ officially	O
 reported	O
 to	O
 the	O
-US	B-LOC
+US	O
 securities	O
 and	O
 exchanges	O
@@ -8607,7 +8623,7 @@ analysts	O
 predicted	O
 .	O
 
-Ford	B-ORG
+Ford	O
 ,	O
 the	O
 second	O
@@ -8630,7 +8646,7 @@ week	O
 In	O
 contrast	O
 ,	O
-Toyota	B-ORG
+Toyota	O
 is	O
 expected	O
 to	O
@@ -8649,7 +8665,7 @@ $	O
 billion	O
 .	O
 
-GM	B-ORG
+GM	O
 's	O
 automotive	O
 division	O
@@ -8666,8 +8682,8 @@ driven	O
 by	O
 losses	O
 in	O
-North	B-LOC
-America	I-LOC
+North	O
+America	O
 .	O
 
 This	O
@@ -8675,7 +8691,7 @@ has	O
 been	O
 attributed	O
 to	O
-GM	B-ORG
+GM	O
 's	O
 shrinking	O
 market	O
@@ -8688,9 +8704,9 @@ taken	O
 by	O
 Japanese	O
 manufacturers	O
-Toyota	B-ORG
+Toyota	O
 and	O
-Nissan	B-ORG
+Nissan	O
 .	O
 
 A	O
@@ -8711,7 +8727,7 @@ of	O
 the	O
 restructure	O
 ,	O
-GM	B-ORG
+GM	O
 plans	O
 to	O
 cut	O
@@ -8728,8 +8744,8 @@ by	O
 An	O
 aide	O
 for	O
-Kirk	B-PER
-Kerkorian	I-PER
+Kirk	O
+Kerkorian	O
 ,	O
 GMs	O
 largest	O
@@ -8760,7 +8776,7 @@ executive	O
 pay	O
 and	O
 sell	O
-Saab	B-ORG
+Saab	O
 .	O
 
 Australian	O
@@ -8774,20 +8790,22 @@ assistance	O
 package	O
 for	O
 Ford	B-ORG
+
 May	O
 5	O
 ,	O
 2006	O
-Australian	O
-Prime	O
-Minister	O
-John	B-PER
+
+Australian	B-PER
+Prime	I-PER
+Minister	I-PER
+John	I-PER
 Howard	I-PER
 and	O
-federal	O
-industry	O
-minister	O
-Ian	B-PER
+federal	B-PER
+industry	I-PER
+minister	I-PER
+Ian	I-PER
 MacDonald	I-PER
 today	O
 announced	O
@@ -8802,13 +8820,11 @@ Ford	B-ORG
 Australia	I-ORG
 with	O
 a	O
-AU	O
-$	O
+AU$	O
 52.5	O
 million	O
 (	O
-US	B-LOC
-$	O
+US$	O
 40.4	O
 million	O
 )	O
@@ -8816,7 +8832,7 @@ million	O
 financial	O
 assistance	O
 package	O
-``	O
+''	O
 .	O
 
 Additional	O
@@ -8834,8 +8850,8 @@ government	O
 
 According	O
 to	O
-Mr	O
-Howard	B-PER
+Mr	B-PER
+Howard	I-PER
 ,	O
 the	O
 injection	O
@@ -8852,15 +8868,14 @@ for	O
 the	O
 long	O
 term	O
-``	O
+''	O
 .	O
 
 From	O
 the	O
 package	O
 ,	O
-AU	O
-$	O
+AU$	O
 40	O
 million	O
 will	O
@@ -8872,11 +8887,11 @@ design	O
 and	O
 manufacture	O
 of	O
-Ford	B-ORG
+Ford	O
 's	O
 next	O
 model	O
-Falcon	B-ORG
+Falcon	O
 and	O
 Territory	O
 vehicles	O
@@ -8914,7 +8929,7 @@ to	O
 
 The	O
 current	O
-Falcon	B-ORG
+Falcon	O
 will	O
 need	O
 to	O
@@ -8946,8 +8961,8 @@ from	O
 the	O
 completely	O
 new	O
-Holden	B-ORG
-Commodore	I-ORG
+Holden	O
+Commodore	O
 (	O
 the	O
 Falcon	O
@@ -8970,8 +8985,7 @@ year	O
 
 The	O
 additional	O
-AU	O
-$	O
+AU$	O
 12.5	O
 million	O
 will	O
@@ -9001,7 +9015,7 @@ countries	O
 .	O
 
 Mr	O
-Howard	B-PER
+Howard	O
 said	O
 that	O
 the	O
@@ -9024,9 +9038,7 @@ become	O
 the	O
 base	O
 for	O
-R	O
-&	O
-D	O
+R&D	O
 projects	O
 in	O
 the	O
@@ -9034,7 +9046,7 @@ region	O
 .	O
 
 Mr	O
-MacFarlane	B-PER
+MacFarlane	O
 said	O
 that	O
 the	O
@@ -9043,7 +9055,7 @@ facility	O
 was	O
 exciting	O
 for	O
-Australia	B-LOC
+Australia	O
 and	O
 that	O
 it	O
@@ -9062,20 +9074,18 @@ The	O
 funding	O
 has	O
 helped	O
-Ford	B-ORG
-Australia	I-ORG
+Ford	O
+Australia	O
 secure	O
 the	O
 largest	O
 automotive	O
-R	O
-&	O
-D	O
+R&D	O
 project	O
 ever	O
 undertaken	O
 in	O
-Australia	B-LOC
+Australia	O
 which	O
 is	O
 equally	O
@@ -9083,13 +9093,13 @@ exciting	O
 news	O
 for	O
 local	O
-Ford	B-ORG
+Ford	O
 employees	O
 and	O
 Australian	O
 component	O
 producers	O
-``	O
+''	O
 he	O
 said	O
 .	O
@@ -9099,8 +9109,8 @@ The	O
 project	O
 will	O
 see	O
-Ford	B-ORG
-Australia	I-ORG
+Ford	O
+Australia	O
 become	O
 a	O
 centre	O
@@ -9112,8 +9122,8 @@ engineering	O
 excellence	O
 in	O
 the	O
-Asia	B-LOC
-Pacific	I-LOC
+Asia	O
+Pacific	O
 region	O
 which	O
 will	O
@@ -9125,15 +9135,15 @@ the	O
 broader	O
 industry	O
 ,	O
-``	O
+''	O
 ``	O
 This	O
 opportunity	O
 will	O
 put	O
 both	O
-Ford	B-ORG
-Australia	I-ORG
+Ford	O
+Australia	O
 ,	O
 and	O
 the	O
@@ -9158,15 +9168,15 @@ capabilities	O
 are	O
 concerned	O
 .	O
+''	O
 
-``	O
 Mr	O
-MacFarlane	B-PER
+MacFarlane	O
 said	O
 .	O
 
 Mr	O
-Howard	B-PER
+Howard	O
 claims	O
 that	O
 the	O
@@ -9183,16 +9193,16 @@ of	O
 the	O
 ``	O
 iconic	O
-``	O
-Ford	B-ORG
-Falcon	I-ORG
+''	O
+Ford	O
+Falcon	O
 ,	O
 which	O
 has	O
 been	O
 built	O
 in	O
-Australia	B-LOC
+Australia	O
 since	O
 1960	O
 .	O
@@ -9203,8 +9213,8 @@ package	O
 is	O
 conditional	O
 upon	O
-Ford	B-ORG
-Australia	I-ORG
+Ford	O
+Australia	O
 giving	O
 the	O
 Australian	O
@@ -9236,10 +9246,12 @@ response	O
 to	O
 growing	O
 losses	O
+
 August	O
 19	O
 ,	O
 2006	O
+
 Ford	B-ORG
 has	O
 announced	O
@@ -9371,15 +9383,15 @@ of	O
 July	O
 .	O
 
-George	B-PER
-Pipas	I-PER
+George	O
+Pipas	O
 ,	O
 director	O
 of	O
 sales	O
 analysis	O
 at	O
-Ford	B-ORG
+Ford	O
 ,	O
 points	O
 to	O
@@ -9432,74 +9444,74 @@ affected	O
 :	O
 *	O
 St.	O
-Thomas	B-PER
-Assembly	I-PER
-of	I-PER
-St.	I-PER
-Thomas	I-PER
+Thomas	O
+Assembly	O
+of	O
+St.	O
+Thomas	O
 ,	O
-Ontario	B-LOC
+Ontario	O
 ,	O
-Canada	B-LOC
+Canada	O
 *	O
-Chicago	B-LOC
+Chicago	O
 ,	O
-Illinois	B-LOC
+Illinois	O
 *	O
-Wixom	B-ORG
-Assembly	I-ORG
-Plant	I-ORG
-of	I-ORG
-Wixom	I-ORG
+Wixom	O
+Assembly	O
+Plant	O
+of	O
+Wixom	O
 ,	O
-Michigan	B-LOC
+Michigan	O
 ,	O
-Michigan	B-LOC
+Michigan	O
 *	O
-Louisville	B-LOC
-Assembly	I-LOC
-of	I-LOC
-Louisville	I-LOC
+Louisville	O
+Assembly	O
+of	O
+Louisville	O
 ,	O
-Kentucky	B-LOC
+Kentucky	O
 *	O
-Michigan	B-LOC
-Truck	I-LOC
-Plant	I-LOC
-of	I-LOC
-Wayne	I-LOC
+Michigan	O
+Truck	O
+Plant	O
+of	O
+Wayne	O
 ,	O
-Michigan	B-LOC
+Michigan	O
 *	O
 St.	O
-Paul	B-PER
+Paul	O
 ,	O
-Minnesota	B-LOC
+Minnesota	O
 *	O
-Kansas	B-ORG
-City	I-ORG
-Assembly	I-ORG
+Kansas	O
+City	O
+Assembly	O
 of	O
-Kansas	B-LOC
-City	I-LOC
+Kansas	O
+City	O
 ,	O
-Missouri	B-LOC
+Missouri	O
 *	O
-Norfolk	B-LOC
-Assembly	I-LOC
-of	I-LOC
-Norfolk	I-LOC
+Norfolk	O
+Assembly	O
+of	O
+Norfolk	O
 ,	O
-Virginia	B-LOC
-*	I-LOC
-River	I-LOC
-Rouge	I-LOC
-Plant	I-LOC
-of	I-LOC
-Dearborn	I-LOC
+Virginia	O
+*	O
+River	O
+Rouge	O
+Plant	O
+of	O
+Dearborn	O
 ,	O
-Michigan	B-LOC
-Ford	B-ORG
+Michigan	O
+Ford	O
 's	O
 stock	O
 fell	O
@@ -9514,27 +9526,29 @@ $	O
 8	O
 on	O
 the	O
-New	B-ORG
-York	I-ORG
-Stock	I-ORG
-Exchange	I-ORG
+New	O
+York	O
+Stock	O
+Exchange	O
 .	O
 
-Ford	B-ORG
+Ford	O
 Taurus	O
 to	O
 be	O
 revived	O
+
 February	O
 9	O
 ,	O
 2007	O
+
 thumb	O
-Ford	B-ORG
-Motor	I-ORG
-Company	I-ORG
-CEO	O
-Alan	B-PER
+Ford	B-PER
+Motor	I-PER
+Company	I-PER
+CEO	I-PER
+Alan	I-PER
 Mulally	I-PER
 has	O
 reported	O
@@ -9543,7 +9557,7 @@ Ford	B-ORG
 will	O
 rename	O
 the	O
-Ford	B-ORG
+Ford	O
 Five	O
 Hundred	O
 to	O
@@ -9659,7 +9673,7 @@ and	O
 pushed	O
 the	O
 other	O
-American	O
+American	B-LOC
 automakers	O
 to	O
 follow	O
@@ -9678,7 +9692,7 @@ of	O
 the	O
 ``	O
 boxy	O
-``	O
+''	O
 cars	O
 of	O
 the	O
@@ -9728,9 +9742,10 @@ it	O
 go	O
 away	O
 ?	O
-``	O
-Alan	B-PER
-Mulally	I-PER
+''	O
+
+Alan	O
+Mulally	O
 remembered	O
 asking	O
 ,	O
@@ -9741,10 +9756,10 @@ the	O
 best-selling	O
 car	O
 in	O
-America	B-LOC
+America	O
 .	O
+''	O
 
-``	O
 While	O
 it	O
 is	O
@@ -9801,20 +9816,22 @@ the	O
 country	O
 .	O
 
-DaimlerChrysler	B-ORG
+DaimlerChrysler	O
 plans	O
 to	O
 cut	O
 13	O
 jobs	O
+
 February	O
 14	O
 ,	O
 2007	O
-International	O
-car	O
-company	O
-DaimlerChrysler	B-ORG
+
+International	B-ORG
+car	I-ORG
+company	I-ORG
+DaimlerChrysler	I-ORG
 announced	O
 today	O
 it	O
@@ -9843,14 +9860,14 @@ plans	O
 to	O
 cut	O
 two	O
-Chrysler	B-ORG
+Chrysler	O
 plants	O
 in	O
 an	O
 attempt	O
 to	O
 make	O
-Chrysler	B-ORG
+Chrysler	O
 business	O
 profitable	O
 by	O
@@ -9865,8 +9882,8 @@ will	O
 be	O
 cut	O
 in	O
-the	O
-U.S.	B-LOC
+the	B-LOC
+U.S.	I-LOC
 ,	O
 2	O
 production	O
@@ -9914,20 +9931,20 @@ a	O
 much-needed	O
 one	O
 at	O
-Chrysler	B-ORG
+Chrysler	O
 ,	O
-``	O
+''	O
 said	O
 chief	O
 investment	O
 officer	O
 at	O
-Solaris	B-ORG
-Asset	I-ORG
-Management	I-ORG
+Solaris	O
+Asset	O
+Management	O
 ,	O
-Tim	B-PER
-Ghriskey	I-PER
+Tim	O
+Ghriskey	O
 .	O
 
 Following	O
@@ -9936,12 +9953,12 @@ speculation	O
 that	O
 the	O
 companies	O
-Daimler-Benz	B-ORG
+Daimler-Benz	O
 (	O
-Mercedes-Benz	B-ORG
+Mercedes-Benz	O
 )	O
 and	O
-Chrysler	B-ORG
+Chrysler	O
 ,	O
 which	O
 merged	O
@@ -9950,14 +9967,14 @@ in	O
 1998	O
 to	O
 make	O
-DaimlerChrysler	B-ORG
+DaimlerChrysler	O
 ,	O
 would	O
 split	O
 ,	O
 chairman	O
-Dieter	B-PER
-Zetsche	I-PER
+Dieter	O
+Zetsche	O
 denied	O
 allegations	O
 .	O
@@ -9979,13 +9996,13 @@ solution	O
 for	O
 both	O
 the	O
-Chrysler	B-ORG
-Group	I-ORG
+Chrysler	O
+Group	O
 and	O
-DaimlerChrysler	B-ORG
+DaimlerChrysler	O
 .	O
+''	O
 
-``	O
 DaimlerChrysler	B-ORG
 to	O
 sell	O
@@ -9995,12 +10012,14 @@ for	O
 $	O
 7.4	O
 Billion	O
+
 May	O
 14	O
 ,	O
 2007	O
-The	O
-DaimlerChrysler	B-ORG
+
+The	B-ORG
+DaimlerChrysler	I-ORG
 Corporation	I-ORG
 has	O
 announced	O
@@ -10011,25 +10030,24 @@ is	O
 divesting	O
 itself	O
 of	O
-the	O
-Chrysler	B-ORG
+the	B-ORG
+Chrysler	I-ORG
 Group	I-ORG
 by	O
 selling	O
 it	O
 to	O
-New	B-LOC
-York	I-LOC
-City-based	O
-private	O
-equity	O
-firm	O
-Cerberus	B-ORG
+New	B-ORG
+York	I-ORG
+City-based	I-ORG
+private	I-ORG
+equity	I-ORG
+firm	I-ORG
+Cerberus	I-ORG
 Capital	I-ORG
 Management	I-ORG
 for	O
-US	B-LOC
-$	O
+US$	O
 7.4	O
 billion	O
 .	O
@@ -10044,12 +10062,12 @@ to	O
 be	O
 changed	O
 to	O
-Daimler	B-ORG
-AG	I-ORG
+Daimler	O
+AG	O
 and	O
-Chrysler	B-ORG
-Holding	I-ORG
-LLC	I-ORG
+Chrysler	O
+Holding	O
+LLC	O
 .	O
 
 DaimlerChrysler	B-ORG
@@ -10099,7 +10117,7 @@ at	O
 Chrysler	B-ORG
 .	O
 
-Cerberus	B-ORG
+Cerberus	O
 also	O
 led	O
 a	O
@@ -10115,13 +10133,13 @@ of	O
 last	O
 year	O
 in	O
-GMAC	B-ORG
+GMAC	O
 ,	O
 the	O
 financing	O
 arm	O
 of	O
-GM	B-ORG
+GM	O
 ,	O
 and	O
 is	O
@@ -10134,18 +10152,18 @@ in	O
 auto	O
 parts	O
 giant	O
-Delphi	B-ORG
+Delphi	O
 .	O
 
-Buzz	B-PER
-Hargrove	I-PER
+Buzz	O
+Hargrove	O
 ,	O
 the	O
 president	O
 of	O
-Canadian	B-ORG
-Auto	I-ORG
-Workers	I-ORG
+Canadian	O
+Auto	O
+Workers	O
 said	O
 he	O
 had	O
@@ -10157,7 +10175,7 @@ collective	O
 bargaining	O
 agreement	O
 with	O
-Chrysler	B-ORG
+Chrysler	O
 would	O
 remain	O
 and	O
@@ -10176,10 +10194,10 @@ of	O
 the	O
 German	O
 company	O
-DaimlerChrysler	B-ORG
+DaimlerChrysler	O
 to	O
-Daimler	B-ORG
-AG	I-ORG
+Daimler	O
+AG	O
 is	O
 pending	O
 shareholder	O
@@ -10197,18 +10215,19 @@ fall	O
 
 Ford	B-ORG
 offers	O
-US	B-LOC
-$	O
+US$	O
 78	O
 million	O
 for	O
-Romanian	O
+Romanian	B-LOC
 auto	O
 plant	O
+
 September	O
 8	O
 ,	O
 2007	O
+
 Ford	B-ORG
 Motor	I-ORG
 Company	I-ORG
@@ -10225,8 +10244,7 @@ $	O
 57	O
 million	O
 (	O
-US	B-LOC
-$	O
+US$	O
 78	O
 million	O
 )	O
@@ -10236,15 +10254,15 @@ a	O
 percent	O
 stake	O
 in	O
-the	O
-Romanian	O
-assembly	O
-plant	O
-Automobile	O
-Craiova	O
+the	B-ORG
+Romanian	I-ORG
+assembly	I-ORG
+plant	I-ORG
+Automobile	I-ORG
+Craiova	I-ORG
 ,	O
 a	O
-Romanian	O
+Romanian	B-LOC
 official	O
 said	O
 Friday	O
@@ -10273,7 +10291,7 @@ $	O
 million	O
 overall	O
 ,	O
-``	O
+''	O
 said	O
 Sebastian	B-PER
 Vladescu	I-PER
@@ -10285,7 +10303,7 @@ State	B-ORG
 Property	I-ORG
 Agency	I-ORG
 (	O
-AVAS	O
+AVAS	B-ORG
 )	O
 ,	O
 after	O
@@ -10333,8 +10351,7 @@ in	O
 late	O
 2006	O
 for	O
-US	B-LOC
-$	O
+US$	O
 51	O
 million	O
 .	O
@@ -10363,7 +10380,7 @@ past	O
 loans	O
 .	O
 
-Ford	B-ORG
+Ford	O
 is	O
 the	O
 only	O
@@ -10378,8 +10395,8 @@ factory	O
 
 According	O
 to	O
-Washington	B-ORG
-Post	I-ORG
+Washington	O
+Post	O
 ,	O
 many	O
 auto-part	O
@@ -10390,8 +10407,8 @@ up	O
 in	O
 the	O
 new	O
-European	B-ORG
-Union	I-ORG
+European	O
+Union	O
 member	O
 country	O
 ,	O
@@ -10408,9 +10425,9 @@ the	O
 rising	O
 output	O
 of	O
-Renault	B-ORG
+Renault	O
 's	O
-Dacia	B-LOC
+Dacia	O
 plant	O
 .	O
 
@@ -10418,16 +10435,16 @@ The	O
 vice	O
 president	O
 of	O
-Dacia	B-LOC
+Dacia	O
 ,	O
-Constantin	B-PER
-Stroe	I-PER
+Constantin	O
+Stroe	O
 ,	O
 said	O
 that	O
 the	O
 price	O
-Ford	B-ORG
+Ford	O
 offers	O
 is	O
 not	O
@@ -10447,7 +10464,7 @@ as	O
 soon	O
 as	O
 possible	O
-``	O
+''	O
 ,	O
 he	O
 added	O
@@ -10459,7 +10476,7 @@ this	O
 production	O
 facility	O
 ,	O
-Romania	B-LOC
+Romania	O
 will	O
 become	O
 an	O
@@ -10468,14 +10485,13 @@ auto	O
 production	O
 center	O
 in	O
-Europe	B-LOC
-``	O
+Europe	O
+''	O
 ,	O
 concluded	O
-Stroe	B-PER
+Stroe	O
 ,	O
 cited	O
 by	O
-HotNews	B-ORG
+HotNews	O
 .	O
-
