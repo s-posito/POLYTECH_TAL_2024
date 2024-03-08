@@ -3,7 +3,7 @@ import os
 import nltk
 
 # Configuration nécessaire pour faire fonctionner le Stanford NER Tagger sous Windows
-os.environ['JAVAHOME'] =  "C:/Program Files/Java/jdk-17.0.4.1/bin/java.exe"
+os.environ['JAVAHOME'] =  "C:/Program Files/Java/jdk-17/bin/java.exe"
 from nltk.tokenize import word_tokenize
 from nltk.tag import StanfordNERTagger
 
@@ -21,18 +21,18 @@ def conll_to_txt(input_path, output_path):
                 output_file.write('\n')  # Nouvelle ligne pour les séparations de phrases
 
 
-conll_to_txt('ne_reference.txt.conll', '../generated/part2/ne_test.txt')
+conll_to_txt('ne_reference.txt.conll', '../doc/ne_test.txt')
 
 # 2. Application des deux reconnaisseurs d'entités nommées (NE Recognizers) sur le fichier préparé.
-with open("../ne_test.txt", 'r') as file:
+with open("../doc/ne_test.txt", 'r') as file:
     text = file.read()
 
 tokenized_text = word_tokenize(text)
 
 # Utilisation du Stanford NER Tagger pour identifier les entités nommées.
 def stanford_ne_tagger(token_text):
-    st = StanfordNERTagger('./stanford-ner-2020-11-17/classifiers/english.all.3class.distsim.crf.ser.gz',
-                           './stanford-ner-2020-11-17/stanford-ner.jar',
+    st = StanfordNERTagger('../stanford-ner-2020-11-17/classifiers/english.all.3class.distsim.crf.ser.gz',
+                           '../stanford-ner-2020-11-17/stanford-ner.jar',
                            encoding='utf-8')
     ne_tagged = st.tag(token_text)
     return ne_tagged
@@ -75,10 +75,10 @@ stanford_formatted = format_ne_results(stanford_tagged)
 nltk_formatted = format_ne_results(nltk_chunked)
 
 # Sauvegarde des résultats formatés pour les deux taggers.
-with open("../ne_test.txt.ne.stan", 'w') as file:
+with open("../doc/ne_test.txt.ne.stan", 'w') as file:
     file.write(stanford_formatted)
 
-with open("../ne_test.txt.ne.nltk", 'w') as file:
+with open("../doc/ne_test.txt.ne.nltk", 'w') as file:
     file.write(nltk_formatted)
 
 # 3. Conversion des résultats des taggers en format CoNLL-2003 pour une standardisation des étiquettes d'entités nommées.
@@ -108,7 +108,7 @@ def convert_nltk_to_conll(input_filepath, output_filepath):
             else:
                 outfile.write('\n')  # Séparation des phrases par une ligne vide pour le format CoNLL.
 
-convert_nltk_to_conll('../ne_test.txt.ne.nltk', 'ne_test.txt.ne.nltk.conll')
+convert_nltk_to_conll('../doc/ne_test.txt.ne.nltk', '../doc/ne_test.txt.ne.nltk.conll')
 
 # Conversion des étiquettes de Stanford en format CoNLL-2003.
 def map_stanford_tag_to_conll(tag):
@@ -145,4 +145,4 @@ def convert_stanford_to_conll(input_filepath, output_filepath):
                 outfile.write('\n')  # Séparation des phrases par une ligne vide pour le format CoNLL.
                 previous_tag = None
 
-convert_stanford_to_conll('../ne_test.txt.ne.stan', 'ne_test.txt.ne.stan.conll')
+convert_stanford_to_conll('../doc/ne_test.txt.ne.stan', '../doc/ne_test.txt.ne.stan.conll')
